@@ -93,20 +93,12 @@
         {
             "graph": "false",
             "category": "Operating System",
-<<<<<<< HEAD
             "topics": [ "GNU / Linux", "Windows", "Android"]
-=======
-            "topics": [ "GNU / Linux", "Windows" ]
->>>>>>> 82ca0e43f0b6eaf733f5d607421d73b87bcc7b75
         },
         {
             "graph": "false",
             "category": "Languages",
-<<<<<<< HEAD
             "topics": [ "English", "Hindi"]
-=======
-            "topics": [ "English", "Hindi", "Bengali", "Santhali" ]
->>>>>>> 82ca0e43f0b6eaf733f5d607421d73b87bcc7b75
         }
     ],
 
