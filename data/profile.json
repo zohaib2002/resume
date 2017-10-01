@@ -1,44 +1,56 @@
 
 {
     "title": "Profile",
-    "name": "Methusael Murmu",
+    "name": "Vipin Yadav",
     "sub_title": "B. Tech undergraduate (Computer Science and Engineering)",
     "about": {
-        "intro": "I'm an easygoing, organised and a self-motivated individual, who likes to develop, design and read. I love programming graphics, or anything closely related to it. I have a reasonable experience as a full stack web developer, and an eye for quality, irrespective of the task at hand. I mostly stick to the computer, but when not, you'll find me reading a novel or playing the guitar.",
+        "intro": "I am responsible, innovative, passionate and committed professional with a get-it-done approach. Experience in designing and implementing sophisticated web applications using Node.JS, Vue.JS and PHP as well as softwares in C++, QT and Computer Vision. Proficient in web design & development technologies, UI/UX standards,  infrastructure and Application Life-Cycle management.",
         "contact": {
-            "email": "iam.methusael@gmail.com",
-            "phone": "+917535079848",
+            "email": "imvpn22@gmail.com",
+            "phone": "+919919716378",
             "address": "Room. 202, Shri Bhagat Harbhaj Rai Sewa Sanstha, Kankhal, Haridwar, PIN - 249408"
         }
     },
 
     "links": [
-        { "title": "GitHub", "src": "https://github.com/methusael13" },
-        { "title": "HackerRank", "src": "https://www.hackerrank.com/methusael" },
-        { "title": "HackerEarth", "src": "https://www.hackerearth.com/@methusael" },
-        { "title": "LinkedIn", "src": "https://www.linkedin.com/in/mithusayel-murmu-a8a976b7" },
-        { "title": "Blog", "src": "http://codersdiet.blogspot.in" }
+        { "title": "GitHub", "src": "https://github.com/imvpn22" },
+        { "title": "HackerEarth", "src": "https://www.hackerearth.com/@vpnydv10year" },
+        { "title": "HackerRank", "src": "https://www.hackerrank.com/imvpn22" },
+        { "title": "LinkedIn", "src": "https://www.linkedin.com/in/vpnydv10year" },
+        { "title": "Blog", "src": "http://vpnwb.blogspot.in" }
     ],
     
     "education": [
         {
             "alma": "Faculty of Engineering and Technology, GKV, Haridwar",
             "duration": "2014 - 2018", "std": "B. Tech (CSE)",
-            "score": "73.00%"
+            "score": "70.00%"
         },
         {
-            "alma": "St. Francis Xavier's School, Kolkata",
-            "duration": "2011 - 2012", "std": "Class XI - XII",
-            "score": "89.75%"
+            "alma": "Jwala Devi SVMIC, Allahabad",
+            "duration": "2011 - 2013", "std": "Class XI - XII",
+            "score": "90%"
         },
         {
-            "alma": "St. Xavier's School, Raiganj",
-            "duration": "2001 - 2010", "std": "Class I - X",
-            "score": "94.00%"
+            "alma": "Jwala Devi SVMIC, Allahabad",
+            "duration": "2009 - 2011", "std": "Class IX - X",
+            "score": "73.3%"
         }
     ],
     
     "projects": [
+        {
+            "title": "PBR Ray Tracer",
+            "duration": "Oct 2017 - Current",
+            "link": "https://github.com/methusael13/phy-ray",
+            "desc": "A ray tracer based on physically based rendering"
+        },
+        {
+            "title": "Tab Tracker",
+            "duration": "Sept - Oct, 2017",
+            "link": "https://github.com/imvpn22/guitar-tab-tracker",
+            "desc": "A Vue.js / Express.js web application for keeping track of guitar tabs."
+        },
         {
             "title": "WhiteBoard",
             "duration": "Jul - Aug, 2017",
@@ -52,22 +64,10 @@
             "desc": "Official website for Jnanagni 2017 - FET, GKV's Annual Techfest"
         },
         {
-            "title": "Graphics Engine Using OpenGL",
-            "duration": "Jun - Jul, 2016",
-            "link": "https://github.com/methusael13/opengl-demo",
-            "desc": "A simple graphics engine framework for rapidly developing and prototyping OpenGL apps"
-        },
-        {
-            "title": "Weather Wiz",
-            "duration": "Jun - Jul, 2015",
-            "link": "https://github.com/methusael13/weather-wiz",
-            "desc": "Weather indicator widget for Linux panels"
-        },
-        {
-            "title": "Sketch",
-            "duration": "Jun - Jul, 2014",
-            "link": "https://github.com/methusael13/sketch",
-            "desc": "A Paint like application using Java"
+            "title": "V-Blog",
+            "duration": "Mar - Apr, 2017",
+            "link": "https://github.com/imvpn22/v-blog",
+            "desc": "Simple Node.JS / Postgres web application for blogging."
         }
     ],
 
@@ -76,39 +76,52 @@
             "graph": "true",
             "category": "Programming Languages",
             "topics": [
-                { "name": "Java", "perc": 90 }, { "name": "C++", "perc": 75 }, { "name": "C", "perc": 98 },
-                { "name": "Javascript", "perc": 90 }, { "name": "Python", "perc": 75 }, { "name": "PHP", "perc": 50 }
+                { "name": "C++", "perc": 75 }, { "name": "C", "perc": 90 }, { "name": "Java", "perc": 60 },
+                { "name": "Javascript", "perc": 90 }, { "name": "Python", "perc": 70 }, { "name": "PHP", "perc": 50 }
             ]
         },
         {
             "graph": "false",
+            "category": "Database",
+            "topics": ["MySQL", "Postgres", "MongoDB", "MS-Access"]
+        },
+        {
+            "graph": "false",
             "category": "Frameworks / Libraries",
-            "topics": [ "Laravel", "Node.js", "Socket.io", "OpenGL" ]
+            "topics": [ "Node.JS", "Laravel", "Socket.io", "OpenGL" ]
         },
         {
             "graph": "false",
             "category": "Operating System",
+<<<<<<< HEAD
+            "topics": [ "GNU / Linux", "Windows", "Android"]
+=======
             "topics": [ "GNU / Linux", "Windows" ]
+>>>>>>> 82ca0e43f0b6eaf733f5d607421d73b87bcc7b75
         },
         {
             "graph": "false",
             "category": "Languages",
+<<<<<<< HEAD
+            "topics": [ "English", "Hindi"]
+=======
             "topics": [ "English", "Hindi", "Bengali", "Santhali" ]
+>>>>>>> 82ca0e43f0b6eaf733f5d607421d73b87bcc7b75
         }
     ],
 
     "workshops": [
         {
-            "desc": "<strong>Vision Robotics</strong> with <em>Cognizance</em>, IIT Roorkee",
-            "date": "Mar, 2016"
+            "desc": "<a href='imad.tech'><strong> IMAD </strong></a>(Introduction to Modern Application Development) MOOC provided by <em>NPTEL</em> and <em>Hasura.io</em>",
+            "date": "Jan - Mar, 2017"
+        },
+        {
+            "desc": "<strong> ETCS </strong>(Emerging Trends in Computer Science) Summer Training provided by <em>MNNIT Allahabad</em>",
+            "date": "Jun - July, 2016"
         },
         {
             "desc": "<strong>BlueMix Enablement</strong> at FET, GKV",
             "date": "Mar, 2015"
-        },
-        {
-            "desc": "<strong>Ethical Hacking</strong> with <em>Robotryst</em>, IIT Delhi",
-            "date": "Feb - Mar, 2015"
         },
         {
             "desc": "<strong>Basics of Web Technology</strong> with <em>KnowWorkshops | CSI - Haridwar Chapter</em>, FET, GKV",
@@ -118,8 +131,27 @@
 
     "experiences": [
         {
+            "desc": "Product development intern at <strong> Hasura.io </strong> ",
+            "date": "May - Aug, 2017"
+        },
+        {
+            "desc": "Event Organizer in <strong>Jnanagni'17</strong> (Annual Techno-Cultural fest of FET, GKV)",
+            "date": "21-23 Mar, 2017"
+        },
+        {
             "desc": "Conducted a workshop for 1<sup>st</sup> and 2<sup>nd</sup> year students on <strong>Linux Essentials</strong>",
             "date": "Oct, 2016"
+        }
+    ],
+    
+    "comptetions": [
+        {
+            "desc": "<strong> NPAT </strong> at FET, GKV",
+            "date": "Aug, 2017"
+        },
+        {
+            "desc": "<strong> CEST </strong>- 2015 at FET, GKV",
+            "date": "Sept, 2015"
         }
     ]
 }

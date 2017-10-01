@@ -8,4 +8,4 @@ The profile data can be modified at `data/profile.json`
 Replace `public/assets/images/dp.jpg` with an image of your own.
 
 ### Preview
-![Preview](https://raw.githubusercontent.com/methusael13/resume-builder/master/preview/preview.png)
+![Preview](https://raw.githubusercontent.com/imvpn22/resume-builder/master/preview/preview.png)
