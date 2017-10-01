@@ -65,7 +65,7 @@ body {
     border-bottom: 1px solid #f0f0f0;
 }
 .cat-indicator {
-    color: #f4645f;
+    color: #3A8CE4;
 }
 .cat-title {
     font-family: "Source Sans Pro";
@@ -84,7 +84,7 @@ body {
     display: flex; padding: 10px 0;
 }
 .contact-logo {
-    color: #f4645f;
+    color: #3A8CE4;
 }
 .contact-info {
     padding-left: 18px;
@@ -103,7 +103,7 @@ body {
 }
 
 /* Links */
-a { text-decoration: none; color: #f4645f; }
+a { text-decoration: none; color: #3A8CE4; }
 .link-title {
     font-size: 1.1em; font-weight: 600;
     color: #222;
@@ -129,7 +129,7 @@ a { text-decoration: none; color: #f4645f; }
 }
 .edu-score {
     margin-left: 20px; padding: 2px 8px;
-    background-color: #f4645f; color: #fff;
+    background-color: #3A8CE4; color: #fff;
     border-radius: 20px;
 }
 
@@ -163,7 +163,7 @@ a { text-decoration: none; color: #f4645f; }
 .cat-skill-type:before {
     content: '\25c6';
     margin-top: -0.10em; position: absolute;
-    margin-left: -1.5em; color: #f4645f;
+    margin-left: -1.5em; color: #3A8CE4;
 }
 .cat-skill-body {
     display: flex; flex-wrap: wrap;
@@ -188,9 +188,11 @@ a { text-decoration: none; color: #f4645f; }
 .skill-progress-track {
     height: 10px; min-width: 150px;
     background-color: #eee; margin-top: 6px;
+    border-radius: 6px;
 }
 .skill-progress {
-    height: 100%; background-color: #f4645f;
+    height: 100%; background-color: #3A8CE4;
+    border-radius:  6px;
 }
 
 .pad-bottom-extra { padding-bottom: 20px; }
