@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Resume | Vipin</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"></div>
+            <div class="header-title-section">
+                <div class="header-title">
+                    <%= title %>
+                </div>
+                <div class="header-subtitle">
+                    <%= sub_title %>
+                </div>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-col info-left">
+                <div class="cat-header">
+                    <span class="cat-indicator">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                    <span class="cat-title">About Me</span>
+                </div>
+                <div class="cat-def-body" id="aboutIntro">
+                    This is something about me
+                </div>
+                <div class="cat-header">
+                    <span class="cat-indicator">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                    <span class="cat-title">Contact</span>
+                </div>
+                <div class="cat-contact-body">
+                    <div class="contact-item">
+                        <div class="contact-logo">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-info">
+                            <a id="contactEmail" target="_blank" href="">
+                                abc@xyz.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-logo">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div id="contactPhone" class="contact-info">
+                            +91-1234567890
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-logo">
+                            <i class="fa fa-address-card" aria-hidden="true"></i>
+                        </div>
+                        <div id="contactAddress" class="contact-info">
+                            Somewhat, Somewhere, India, Earth - 123456
+                        </div>
+                    </div>
+                </div>
+                <div class="cat-header">
+                    <span class="cat-indicator">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                    <span class="cat-title">Links</span>
+                </div>
+                <div class="cat-list-body">
+                    <ul id="linkList"></ul>
+                </div>
+            </div>
+            <div class="info-col info-right">
+                <div class="cat-header">
+                    <span class="cat-indicator">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                    <span class="cat-title">Education</span>
+                </div>
+                <div class="cat-list-body">
+                    <ul id="educationList"></ul>
+                </div>
+                <div class="cat-header">
+                    <span class="cat-indicator">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                    <span class="cat-title">
+                        Projects</span>
+                </div>
+                <div class="cat-list-body">
+                    <ul id="projectList"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="cat-header">
+                <span class="cat-indicator">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </span>
+                <span class="cat-title">Skills</span>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        window.addEventListener("load", () => {
+            let desc = document.getElementsByClassName("ach-title");
+            for (let i = 0; i < desc.length; i++) {
+                desc[i].innerHTML = desc[i].innerText;
+            };
+
+            // Extra padding for last skill item
+            let skillItems = document.querySelectorAll(".footer > .cat-skill-item");
+            if (skillItems) {
+                skillItems[skillItems.length - 1].classList.add("pad-bottom-extra");
+            }
+        }, false);
+    </script>
+</body>
+
+</html>

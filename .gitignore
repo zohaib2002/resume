@@ -1,3 +1,7 @@
+#local
+.vscode
+.directory
+
 # Logs
 logs
 *.log
