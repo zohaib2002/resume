@@ -1,6 +1,6 @@
 let profileData;
 
-fetch("../../data/profile.json")
+fetch("data/profile.json")
     .then(response => response.json())
     .then(json => {
         // console.log(json);
