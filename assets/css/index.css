@@ -206,22 +206,20 @@ a {
   display: inline-block !important;
 }
 .cat-skill-type {
-  min-width: 13.5em;
-  font-family: "Roboto Condensed";
-  padding: 10px 10px 5px 50px;
-  color: #888;
-  font-size: 0.8em;
+  width: 100%;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  position: relative;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  padding: 5px 0;
 }
-.cat-skill-type:before {
+/* .cat-skill-type:before {
   content: "\25c6";
   margin-top: -0.1em;
   position: absolute;
   margin-left: -1.5em;
   color: #3a8ce4;
-}
+} */
 .cat-skill-body {
   display: flex;
   flex-wrap: wrap;
@@ -246,7 +244,7 @@ a {
   font-family: "Source Sans Pro";
 }
 .skill-gen:first-child {
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 .skill-title,
 .skill-gen {

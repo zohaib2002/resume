@@ -134,17 +134,17 @@ setProjects = (projects) => {
 }
 
 setSkills = (skills) => {
-    let footer = document.querySelector('.footer');
+    let skillList = document.querySelector('#skillList');
     skills.forEach(skill => {
         let type_klass = "cat-skill-type";
         let body_klass = "cat-skill-body";
 
         if (skill.graph == "false") {
-            type_klass += " force-inline";
+            // type_klass += " force-inline";
             body_klass += "-gen";
         }
 
-        let catSkillItem = document.createElement('div');
+        let catSkillItem = document.createElement('li');
         catSkillItem.className = 'cat-skill-item';
 
         let catSkillType = document.createElement('div');
@@ -187,7 +187,7 @@ setSkills = (skills) => {
 
         catSkillItem.appendChild(catSkillBody);
 
-        footer.appendChild(catSkillItem);
+        skillList.appendChild(catSkillItem);
     });
 
 }

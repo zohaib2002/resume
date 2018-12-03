@@ -1,7 +1,7 @@
 {
     "title": "Profile",
     "name": "Vipin Yadav",
-    "sub_title": "B. Tech undergraduate (Computer Science and Engineering)",
+    "sub_title": "Full Stack Developer",
     "about": {
         "intro": "I am responsible, innovative, passionate and committed professional with a get-it-done approach. Experience in designing and implementing sophisticated web applications and softwares. Proficient in web design & development technologies, UI/UX standards, infrastructure and Application Life-Cycle management.",
         "contact": {
@@ -48,38 +48,6 @@
             "score": "73%"
         }
     ],
-    "projects": [
-        {
-            "title": "Restaurant Review",
-            "duration": "June - Nov, 2018",
-            "link": "https://github.com/imvpn22/restaurant-review-pwa",
-            "desc": "Udacity's 'Mobile Web Specialist Restaurant Reviews App' Project for  MWS Nanodegree"
-        },
-        {
-            "title": "Progenet",
-            "duration": "Mar - May, 2018",
-            "link": "-",
-            "desc": "Procedurally generated planetary rendering system"
-        },
-        {
-            "title": "PBR Ray Tracer",
-            "duration": "Oct - Dec, 2017",
-            "link": "https://github.com/methusael13/phy-ray",
-            "desc": "A ray tracer based on physically based rendering"
-        },
-        {
-            "title": "WhiteBoard",
-            "duration": "Jul - Aug, 2017",
-            "link": "https://github.com/imvpn22/whiteboard",
-            "desc": "A simple messaging and sketch streaming web app for brainstorming sessions"
-        },
-        {
-            "title": "Jnanagni 2017",
-            "duration": "Jan - Mar, 2017",
-            "link": "https://github.com/methusael13/jnanagni17",
-            "desc": "Official website for Jnanagni 2017 - FET, GKV's Annual Techfest"
-        }
-    ],
     "skills": [
         {
             "graph": "false",
@@ -120,14 +88,38 @@
                 "Windows",
                 "Android"
             ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Restaurant Review",
+            "duration": "June - Nov, 2018",
+            "link": "https://github.com/imvpn22/restaurant-review-pwa",
+            "desc": "Udacity's 'Mobile Web Specialist Restaurant Reviews App' Project for  MWS Nanodegree"
         },
         {
-            "graph": "false",
-            "category": "Languages",
-            "topics": [
-                "English",
-                "Hindi"
-            ]
+            "title": "Progenet",
+            "duration": "Mar - May, 2018",
+            "link": "-",
+            "desc": "Procedurally generated planetary rendering system"
+        },
+        {
+            "title": "PBR Ray Tracer",
+            "duration": "Oct - Dec, 2017",
+            "link": "https://github.com/methusael13/phy-ray",
+            "desc": "A ray tracer based on physically based rendering"
+        },
+        {
+            "title": "WhiteBoard",
+            "duration": "Jul - Aug, 2017",
+            "link": "https://github.com/imvpn22/whiteboard",
+            "desc": "A simple messaging and sketch streaming web app for brainstorming sessions"
+        },
+        {
+            "title": "Jnanagni 2017",
+            "duration": "Jan - Mar, 2017",
+            "link": "https://github.com/methusael13/jnanagni17",
+            "desc": "Official website for Jnanagni 2017 - FET, GKV's Annual Techfest"
         }
     ],
     "events": [
