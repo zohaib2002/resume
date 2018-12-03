@@ -143,6 +143,8 @@ a {
 
 /* Education */
 .edu-header {
+  display: flex;
+  justify-content: space-between;
 }
 .edu-alma,
 .project-title,
@@ -153,8 +155,7 @@ a {
   padding-right: 60px;
 }
 .edu-duration,
-.project-duration,
-.ach-duration {
+.project-duration {
   float: right;
   color: #bbb;
   font-style: italic;
@@ -269,9 +270,13 @@ a {
 }
 
 .ach-item {
-  float: left;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .ach-title {
-  float: left;
+}
+.ach-duration {
+  color: #bbb;
+  font-style: italic;
 }

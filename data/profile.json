@@ -50,7 +50,7 @@
     ],
     "projects": [
         {
-            "title": "Restaurant Review PWA",
+            "title": "Restaurant Review",
             "duration": "June - Nov, 2018",
             "link": "https://github.com/imvpn22/restaurant-review-pwa",
             "desc": "Udacity's 'Mobile Web Specialist Restaurant Reviews App' Project for  MWS Nanodegree"
@@ -87,9 +87,9 @@
             "topics": [
                 "C",
                 "C++",
-                "Java",
+                "Javascript",
                 "Python",
-                "Javascript"
+                "Java"
             ]
         },
         {
@@ -107,8 +107,8 @@
             "topics": [
                 "NodeJS",
                 "ReactJS",
+                "AngularJS",
                 "VueJS",
-                "Laravel",
                 "Socket.io"
             ]
         },
@@ -132,27 +132,6 @@
     ],
     "events": [
         {
-            "title": "workshops",
-            "body": [
-                {
-                    "desc": "<a target='_blank' href='https://imad.tech'><strong>IMAD</strong></a>, a MOOC provided by <a target='_blank' href='https://onlinecourses.nptel.ac.in/'> <b>NPTEL</b> </a> and <a target='_blank' href='https://hasura.io/'> <strong> Hasura</strong> </a> (<a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>Certificate link</a>)",
-                    "date": "Jan - Mar, 2017"
-                },
-                {
-                    "desc": "<strong>ETCS</strong>, a Summer Training provided by <a href='http://www.mnnit.ac.in/' target='_blank'> <b>MNNIT </b> Allahabad</a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7WEVmdlJDcWVZcEE/view?usp=sharing'>Certificate link</a>)",
-                    "date": "Jun - July, 2016"
-                },
-                {
-                    "desc": "<strong>BlueMix Enablement</strong> at FET, GKV",
-                    "date": "Mar, 2015"
-                },
-                {
-                    "desc": "<strong>Basics of Web Technology</strong> with <em>KnowWorkshops | CSI - Haridwar Chapter</em>, FET, GKV",
-                    "date": "Feb, 2015"
-                }
-            ]
-        },
-        {
             "title": "experiences",
             "body": [
                 {
@@ -170,6 +149,31 @@
                 {
                     "desc": "Conducted a workshop for 1<sup>st</sup> and 2<sup>nd</sup> year students on <strong>Linux Essentials</strong>",
                     "date": "Oct, 2016"
+                }
+            ]
+        },
+        {
+            "title": "certifications",
+            "body": [
+                {
+                    "desc": "<strong>Mobile Web Specialist</strong>, a Nanodegree provided by <a target='_blank' href='https://in.udacity.com//'> <b>Udacity</b>  (<a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'>Certificate link</a>)",
+                    "date": "May - Nov, 2018"
+                },
+                {
+                    "desc": "<a target='_blank' href='https://imad.tech'><strong>IMAD</strong></a>, a MOOC provided by <a target='_blank' href='https://onlinecourses.nptel.ac.in/'> <b>NPTEL</b> </a> and <a target='_blank' href='https://hasura.io/'> <strong> Hasura</strong> </a> (<a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>Certificate link</a>)",
+                    "date": "Jan - Mar, 2017"
+                },
+                {
+                    "desc": "<strong>ETCS</strong>, a Summer Training provided by <a href='http://www.mnnit.ac.in/' target='_blank'> <b>MNNIT </b> Allahabad</a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7WEVmdlJDcWVZcEE/view?usp=sharing'>Certificate link</a>)",
+                    "date": "Jun - July, 2016"
+                },
+                {
+                    "desc": "<strong>BlueMix Enablement</strong> at FET, GKV",
+                    "date": "Mar, 2015"
+                },
+                {
+                    "desc": "<strong>Basics of Web Technology</strong> with <em>KnowWorkshops | CSI - Haridwar Chapter</em>, FET, GKV",
+                    "date": "Feb, 2015"
                 }
             ]
         },
