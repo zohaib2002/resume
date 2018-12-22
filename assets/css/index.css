@@ -16,8 +16,8 @@ body {
 
 /* Links */
 a {
-  text-decoration: none;
-  color: #3173bb;
+  text-decoration: none !important;
+  color: #3173bb !important;
 }
 .link-title {
   font-size: 1.1em;
@@ -31,9 +31,9 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* padding: 15px; */
   box-sizing: border-box;
-  border-bottom: 2px solid #ececec;
+  /* padding: 15px; */
+  /* border-bottom: 2px solid #ececec; */
 }
 
 .logo {
@@ -56,7 +56,7 @@ a {
   font-family: "Source Sans Pro";
   text-transform: uppercase;
   font-weight: 100;
-  font-size: 2.5em;
+  font-size: 2.4em;
   letter-spacing: 0.2em;
   text-align: center;
 }
@@ -72,10 +72,7 @@ a {
 }
 
 .info-section {
-  /* display: flex; */
-  /* flex-direction: row; */
-  margin-top: 30px;
-  margin-bottom: 20px;
+  padding: 1em 0 0 0;
 }
 .info-row {
   display: flex;
@@ -84,7 +81,7 @@ a {
 
 .info-left {
   flex: 4;
-  padding-right: 20px;
+  /* padding-right: 20px; */
   /* border-right: 2px solid #ececec; */
 }
 .info-right {
@@ -93,10 +90,10 @@ a {
 }
 
 .cat-header {
-  padding: 6px 0;
+  padding: 3px 0;
   box-sizing: border-box;
   font-size: 1.1em;
-  border-bottom: 1px solid #f0f0f0;
+  /* border-top: 1px solid #f0f0f0; */
 }
 .cat-indicator {
   color: #3173bb;
@@ -110,7 +107,7 @@ a {
 }
 .cat-def-body,
 .cat-skill-body {
-  padding: 10px 5px 10px 30px;
+  padding: 2px 0px 10px 30px;
 }
 
 /* Contact style */
@@ -131,7 +128,7 @@ a {
 
 /* Lists */
 .cat-list-body {
-  padding: 10px 0;
+  padding: 2px 0 10px 30px;
 }
 .cat-list-body ul {
   padding-left: 18px;
@@ -139,7 +136,7 @@ a {
   list-style-type: circle;
 }
 .cat-list-body li {
-  padding: 10px 0;
+  padding: 5px 0;
   padding-left: 0.9em;
 }
 
@@ -159,12 +156,12 @@ a {
 .edu-duration,
 .project-duration {
   float: right;
-  color: #bbb;
+  color: #777;
   font-style: italic;
 }
 .edu-class-data {
   clear: right;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 .edu-std {
   letter-spacing: 0.1em;
@@ -279,6 +276,6 @@ a {
 .ach-title {
 }
 .ach-duration {
-  color: #bbb;
+  color: #777;
   font-style: italic;
 }
