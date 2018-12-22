@@ -1,5 +1,7 @@
 # Resumé Builder
 Web resume template
+It is my resume made with HTML, CSS & JS.  
+View at https://imvpn22.github.io/resume/
 
 #### Change profile data
 The profile data can be modified at `data/profile.json`
