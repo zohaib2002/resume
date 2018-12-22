@@ -104,25 +104,26 @@ setProjects = (projects) => {
         projectTitle.innerHTML = project.title;
         projectHeader.appendChild(projectTitle);
 
+
+        if (project.link.length > 5) {
+            let projectLink = document.createElement('span');
+            projectLink.className = 'project-link';
+
+            let a = document.createElement('a');
+            a.href = project.link;
+            a.target = '_blank';
+            a.innerHTML = `(${project.link})`;
+
+            projectLink.appendChild(a);
+            projectHeader.appendChild(projectLink);
+        }
+
         let projectDuration = document.createElement('span');
         projectDuration.className = 'project-duration';
         projectDuration.innerHTML = project.duration;
         projectHeader.appendChild(projectDuration);
 
         li.appendChild(projectHeader);
-
-        if (project.link.length > 5) {
-            let projectLink = document.createElement('div');
-            projectLink.className = 'project-link';
-
-            let a = document.createElement('a');
-            a.href = project.link;
-            a.target = '_blank';
-            a.innerHTML = project.link
-
-            projectLink.appendChild(a);
-            li.appendChild(projectLink);
-        }
 
         let projectDesc = document.createElement('div');
         projectDesc.className = 'project-desc';
@@ -148,12 +149,12 @@ setSkills = (skills) => {
         let catSkillItem = document.createElement('li');
         catSkillItem.className = 'cat-skill-item';
 
-        let catSkillType = document.createElement('div');
+        let catSkillType = document.createElement('span');
         catSkillType.className = type_klass;
         catSkillType.innerHTML = skill.category;
         catSkillItem.appendChild(catSkillType);
 
-        let catSkillBody = document.createElement('div');
+        let catSkillBody = document.createElement('span');
         catSkillBody.className = body_klass;
 
         if (skill.graph == "true") {
