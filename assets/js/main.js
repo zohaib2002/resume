@@ -8,25 +8,26 @@ fetch("data/profile.json")
 
         // Call functions to load profile
         setTitle(profileData);
-        setLinks(profileData.links);
-        setEducation(profileData.education);
+        // setLinks(profileData.links);
+        setExperience(profileData.experiences);
         setProjects(profileData.projects);
         setSkills(profileData.skills);
+        setEducation(profileData.education);
         setEvents(profileData.events);
-
 
     }).catch(err => console.log(err));
 
 
 setTitle = (data) => {
     document.querySelector('.header-title').innerHTML = data.name;
-    document.querySelector('.header-subtitle').innerHTML = data.sub_title;
+    // document.querySelector('.header-subtitle').innerHTML = data.sub_title;
     document.querySelector('#aboutIntro').innerHTML = data.about.intro;
     document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
     document.querySelector('#contactEmail').setAttribute("href", `mailto:${data.about.contact.email}`);
     document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
-    document.querySelector('#contactAddress').innerHTML = data.about.contact.address;
-
+    // document.querySelector('#contactAddress').innerHTML = data.about.contact.address;
+    document.querySelector('#contactWebsite').innerHTML = data.about.contact.portfolio;
+    document.querySelector('#contactWebsite').setAttribute("href", `${data.about.contact.portfolio}`);
 }
 
 setLinks = (links) => {
@@ -190,6 +191,29 @@ setSkills = (skills) => {
         skillList.appendChild(catSkillItem);
     });
 
+}
+
+setExperience = (experiences) => {
+    let expList = document.querySelector('#experienceList');
+    experiences.forEach(evt => {
+        let li = document.createElement('li');
+
+        let achItem = document.createElement('div');
+        achItem.className = 'ach-item';
+
+        let achTitle = document.createElement('div');
+        achTitle.className = 'ach-title';
+        achTitle.innerText = evt.desc;
+        achItem.appendChild(achTitle);
+
+        let achDuration = document.createElement('div');
+        achDuration.className = 'ach-duration';
+        achDuration.innerHTML = evt.date;
+        achItem.appendChild(achDuration);
+
+        li.appendChild(achItem);
+        expList.appendChild(li);
+    });
 }
 
 setEvents = (events) => {

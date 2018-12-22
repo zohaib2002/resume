@@ -14,11 +14,23 @@ body {
   box-sizing: border-box;
 }
 
+/* Links */
+a {
+  text-decoration: none;
+  color: #3173bb;
+}
+.link-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #222;
+}
+.link-src {
+}
+
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
+  justify-content: center;
   padding: 15px;
   box-sizing: border-box;
   border-bottom: 2px solid #ececec;
@@ -38,7 +50,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 5%;
 }
 
 .header-title {
@@ -47,20 +58,22 @@ body {
   font-weight: 100;
   font-size: 2.5em;
   letter-spacing: 0.2em;
+  text-align: center;
 }
 .header-subtitle {
   font-family: "Source Sans Pro";
   font-size: 70%;
   color: #999;
-  padding-left: 3px;
-  padding-top: 10px;
-  text-transform: uppercase;
+  padding: 5px 3px;
   letter-spacing: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .info-section {
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
   margin-top: 30px;
   margin-bottom: 20px;
 }
@@ -72,11 +85,11 @@ body {
 .info-left {
   flex: 4;
   padding-right: 20px;
-  border-right: 2px solid #ececec;
+  /* border-right: 2px solid #ececec; */
 }
 .info-right {
   flex: 8;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .cat-header {
@@ -86,7 +99,7 @@ body {
   border-bottom: 1px solid #f0f0f0;
 }
 .cat-indicator {
-  color: #3a8ce4;
+  color: #3173bb;
 }
 .cat-title {
   font-family: "Source Sans Pro";
@@ -105,13 +118,15 @@ body {
 }
 .contact-item {
   display: flex;
-  padding: 10px 0;
+  padding: 0 7px;
+  border-left: 1px solid;
+  color: #3173bb;
+}
+.contact-item:first-child {
+  border: none;
 }
 .contact-logo {
-  color: #3a8ce4;
-}
-.contact-info {
-  padding-left: 18px;
+  color: #3173bb;
 }
 
 /* Lists */
@@ -126,19 +141,6 @@ body {
 .cat-list-body li {
   padding: 10px 0;
   padding-left: 0.9em;
-}
-
-/* Links */
-a {
-  text-decoration: none;
-  color: #3a8ce4;
-}
-.link-title {
-  font-size: 1.1em;
-  font-weight: 600;
-  color: #222;
-}
-.link-src {
 }
 
 /* Education */
@@ -171,7 +173,7 @@ a {
 .edu-score {
   margin-left: 20px;
   padding: 2px 8px;
-  background-color: #3a8ce4;
+  background-color: #3173bb;
   color: #fff;
   border-radius: 20px;
 }
@@ -218,7 +220,7 @@ a {
   margin-top: -0.1em;
   position: absolute;
   margin-left: -1.5em;
-  color: #3a8ce4;
+  color: #3173bb;
 } */
 .cat-skill-body {
   display: flex;
@@ -259,7 +261,7 @@ a {
 }
 .skill-progress {
   height: 100%;
-  background-color: #3a8ce4;
+  background-color: #3173bb;
   border-radius: 6px;
 }
 
