@@ -12,6 +12,7 @@ body {
   padding: 10px 15px;
   margin: 10px 15px;
   box-sizing: border-box;
+    max-width: 800px !important;
 }
 
 /* Links */
@@ -278,4 +279,16 @@ a {
 .ach-duration {
   color: #777;
   font-style: italic;
+}
+.expDet {
+    list-style-type: disc !important;
+    color: #444;
+    padding: 4px 0 4px 16px;
+/*    border-left: 2px solid beige;*/
+    font-style: italic;
+    font-size: .9em;
+}
+.expDet > li {
+    padding: 1px 0 !important;
+    padding-left: 0.3em !important;
 }

@@ -41,12 +41,6 @@
             "duration": "2011 - 2013",
             "std": "Class XI - XII",
             "score": "90%"
-        },
-        {
-            "alma": "Jwala Devi SVMIC, Allahabad",
-            "duration": "2009 - 2011",
-            "std": "Class IX - X",
-            "score": "73%"
         }
     ],
     "skills": [
@@ -78,15 +72,6 @@
                 "ReactJS",
                 "AngularJS",
                 "VueJS"
-            ]
-        },
-        {
-            "graph": "false",
-            "category": "Operating Systems",
-            "topics": [
-                "GNU / Linux",
-                "Windows",
-                "Android"
             ]
         }
     ],
@@ -124,12 +109,20 @@
     ],
     "experiences": [
         {
-            "desc": "Full-Stack Developer intern at  <a target='_blank' href='https://www.venuemonk.com/'> <strong> Venuemonk </strong> </a> (<a target='_blank' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'>Certificate: https://goo.gl/Uz1gaf</a>)",
-            "date": "Jan - Apr, 2018"
+            "desc": "<b>Full-Stack Developer intern</b> at  <a target='_blank' href='https://www.venuemonk.com/'> <strong> Venuemonk </strong> </a> (<a target='_blank' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'>Certificate: https://goo.gl/Uz1gaf</a>)",
+            "date": "Jan - Apr, 2018",
+            "details": [
+                "Responsible for developing a web-application <b>Venue OnBoarding</b> from design to implementation.",
+                "Work included developing ReactJS-Redux frontend and integrating it with NodeJS-ExpressJS-MongoDB backend."
+            ]
         },
         {
-            "desc": "Product development intern at <a target='_blank' href='https://hasura.io/'> <strong> Hasura </strong> </a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7UmlrUDlsMkVwajg/view?usp=sharing'>Certificate: https://goo.gl/8V3jBy</a>)",
-            "date": "May - Aug, 2017"
+            "desc": "<b>Product development intern</b> at <a target='_blank' href='https://hasura.io/'> <strong> Hasura </strong> </a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7UmlrUDlsMkVwajg/view?usp=sharing'>Certificate: https://goo.gl/8V3jBy</a>)",
+            "date": "May - Aug, 2017",
+            "details": [
+                "Responsible for developing web-application using Hasura platform APIs.",
+                "Work included designing and implementing frontend application in HTML5-CSS3-JavaScript."
+            ]
         }
     ],
     "events": [
