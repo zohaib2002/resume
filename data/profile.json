@@ -3,7 +3,7 @@
     "name": "Vipin Yadav",
     "sub_title": "Full Stack Developer",
     "about": {
-        "intro": "I am a responsible, innovative, passionate and committed professional with a get-it-done approach. Experience in designing and implementing sophisticated Web-applications and softwares. Proficient in UI/UX standards, infrastructure and Application Life-Cycle management.",
+        "intro": "I am a responsible, innovative, passionate and committed professional. Experience in designing and implementing sophisticated Web-applications. Proficient in UI/UX standards, infrastructure and Application Life-Cycle management.",
         "contact": {
             "email": "imvpn22@gmail.com",
             "phone": "+91-9919716378",
@@ -70,7 +70,7 @@
             "topics": [
                 "NodeJS",
                 "ReactJS",
-                "AngularJS",
+                "Angular",
                 "VueJS"
             ]
         }
@@ -81,18 +81,6 @@
             "duration": "June - Nov, 2018",
             "link": "https://github.com/imvpn22/restaurant-review-pwa",
             "desc": "Udacity's 'Mobile Web Specialist Restaurant Reviews App' Project for  MWS Nanodegree"
-        },
-        {
-            "title": "Progenet",
-            "duration": "Mar - May, 2018",
-            "link": "-",
-            "desc": "Procedurally generated planetary rendering system"
-        },
-        {
-            "title": "PBR Ray Tracer",
-            "duration": "Oct - Dec, 2017",
-            "link": "https://github.com/methusael13/phy-ray",
-            "desc": "A ray tracer based on physically based rendering"
         },
         {
             "title": "WhiteBoard",
@@ -108,6 +96,14 @@
         }
     ],
     "experiences": [
+	{
+            "desc": "<b>Project Engineer</b> at  <a target='_blank' href='https://www.wipro.com/'> <strong> Wipro </strong> </a>",
+            "date": "Aug 2018 - Present",
+            "details": [
+                "Working as Front-end web developer, using React-Redux-Bootstrap-PWA.",
+                "Primary work as designing and developing reusable UI components and interacting with back-end service."
+            ]
+        },
         {
             "desc": "<b>Full-Stack Developer intern</b> at  <a target='_blank' href='https://www.venuemonk.com/'> <strong> Venuemonk </strong> </a> (<a target='_blank' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'>Certificate: https://goo.gl/Uz1gaf</a>)",
             "date": "Jan - Apr, 2018",
