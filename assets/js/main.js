@@ -211,22 +211,22 @@ setExperience = (experiences) => {
         achDuration.className = 'ach-duration';
         achDuration.innerHTML = evt.date;
         achItem.appendChild(achDuration);
-        
+
         li.appendChild(achItem);
-        
+
         if (evt.details) {
             let achDetails = document.createElement('ul');
             achDetails.className = 'expDet';
-            
+
             evt.details.forEach(dText => {
                 detItem = document.createElement('li');
                 detItem.innerHTML = dText;
                 achDetails.appendChild(detItem);
             });
-            
+
             li.appendChild(achDetails);
         }
-        
+
         expList.appendChild(li);
     });
 }
@@ -293,9 +293,9 @@ correctHTML = () => {
             for (let i = 0; i < desc.length; i++) {
                 desc[i].innerHTML = desc[i].innerText;
             };
-    
+
     window.addEventListener("load", () => {
-            
+
 
             // Extra padding for last skill item
             /*let skillItems = document.querySelectorAll(".footer > .cat-skill-item");
