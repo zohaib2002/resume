@@ -1,14 +1,10 @@
-let profileData;
-
 fetch("data/profile.json")
     .then(response => response.json())
     .then(json => {
-        // console.log(json);
-        profileData = json;
+        const profileData = json;
 
         // Call functions to load profile
         setTitle(profileData);
-        // setLinks(profileData.links);
         setExperience(profileData.experiences);
         setProjects(profileData.projects);
         setSkills(profileData.skills);
