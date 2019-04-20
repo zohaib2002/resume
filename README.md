@@ -11,25 +11,26 @@ View it in action https://imvpn22.github.io/resume/
 ### Getting Started
 
 #### Using GitHub Pages
-1. Fork this repo. ( Make sure you have a GitHub account )  
-2. Open the forked repo on your profile.    
-3. Make changes in the `data/profile.json` file.  
-4. Go to the settings and enable [github pages](https://pages.github.com/).  
-5. Visit https://<your GitHub username>.github.io/resume in your browser.  
+_( Make sure you have a GitHub account )_
+1. Fork this repo by clicking the **Fork** button on top-right corner.
+2. Go to the forked repo on your profile (It opens by default).    
+3. Edit `data/profile.json` file using GitHub online editor and fill your own data.  
+4. Open the settings of repo and enable [github pages](https://pages.github.com/) choosing source to `master` branch.  
+5. Visit `https://<your GitHub username>.github.io/resume` in your browser.  
 6. Additionaly you can print/save the page as PDF.  
 
 #### Using local development
 If you are a web-developer like me and want to run this on your local system then follow the instructions mentioned below.  
-The project need to be hosted using any Web-Server like `apache`, `tomcat`, `http-server` or `SimpleHTTPServer` etc. I use `http-server` as it is very simple to use. Install `http-server` from [here](https://www.npmjs.com/package/http-server).
+The project need to be hosted using any Web-Server like `apache`, `tomcat`, `http-server` or `SimpleHTTPServer` etc. I use `http-server` as it is very simple to use. Install `http-server` from [here](https://www.npmjs.com/package/http-server) (NodeJS and npm need to installed first to run it).
 
 1. Clone the repo using git or download zip of project on your local system.
 To clone
-```
+```bash
 $ git clone https://github.com/imvpn22/resume.git
 ```
 
 2. Go into the `resume` directory and run
-```
+```bash
 $ http-server
 ```
 which will show something like
