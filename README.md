@@ -2,7 +2,7 @@
 
 ### About
 It is my simple resume made with HTML, CSS, JS using JSON data.   
-Initially the project was written with NodeJS architecture.
+Initially the project was written with NodeJS architecture. [View Old Project](https://github.com/methusael13/resume-builder)
 
 HTML is used for making initial block structure of the page with some simple data, CSS is used for giving some style to the page and JS is used to create small UI components dynamically and fill the data into page. All the data about details related to user is stored in a JSON file.
 
