@@ -8,7 +8,7 @@
             "email": "imvpn22@gmail.com",
             "phone": "+91-9919716378",
             "address": "Electronic City, Bengaluru, Karnataka",
-            "portfolio": "https://imvpn22.github.io"
+            "portfolio": "https://github.com/imvpn22"
         }
     },
     "links": [
@@ -23,10 +23,6 @@
         {
             "title": "Twitter",
             "src": "https://twitter.com/imvpn22"
-        },
-        {
-            "title": "HackerEarth",
-            "src": "https://www.hackerearth.com/@vpnydv10year"
         }
     ],
     "education": [
@@ -99,8 +95,8 @@
             "desc": "<b>Project Engineer</b> at  <a target='_blank' href='https://www.wipro.com/'> <strong> Wipro </strong> </a>",
             "date": "Aug 2018 - Present",
             "details": [
-                "Working as Front-end web developer, using React-Redux-Bootstrap-PWA.",
-                "Primary work as designing and developing reusable UI components and interacting with back-end service."
+                "Working as Frontend Developer in internal project with a tech-stack of Angular-Bootstrap.",
+                "Responsible for implementing reusable UI/UX components and interacting with backend service."
             ]
         },
         {
