@@ -1,18 +1,4 @@
-fetch("data/profile.json")
-    .then(response => response.json())
-    .then(json => {
-        const profileData = json;
-
-        // Call functions to load profile
-        setTitle(profileData);
-        setExperience(profileData.experiences);
-        setProjects(profileData.projects);
-        setSkills(profileData.skills);
-        setEducation(profileData.education);
-        setEvents(profileData.events);
-        correctHTML();
-    }).catch(err => console.log(err));
-
+/* Define all the functions */
 
 setTitle = (data) => {
     document.querySelector('.header-title').innerHTML = data.name;
@@ -292,7 +278,6 @@ correctHTML = () => {
 
     window.addEventListener("load", () => {
 
-
             // Extra padding for last skill item
             /*let skillItems = document.querySelectorAll(".footer > .cat-skill-item");
             if (skillItems) {
@@ -301,3 +286,17 @@ correctHTML = () => {
 
         }, false);
 }
+
+//  Entry Function
+(() => {
+    // Call functions to load profile
+    setTitle(profileData);
+    setExperience(profileData.experiences);
+    setProjects(profileData.projects);
+    setSkills(profileData.skills);
+    setEducation(profileData.education);
+    setEvents(profileData.events);
+    correctHTML();
+})();
+
+

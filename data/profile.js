@@ -1,4 +1,4 @@
-{
+const profileData = {
     "title": "Profile",
     "name": "Vipin Yadav",
     "sub_title": "Full Stack Developer",
