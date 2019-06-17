@@ -4,7 +4,7 @@
 It is my simple resume made with HTML, CSS, JS using JSON data.   
 Initially the project was written with NodeJS architecture. [View Old Project](https://github.com/methusael13/resume-builder)
 
-HTML is used for making initial block structure of the page with some simple data, CSS is used for giving some style to the page and JS is used to create small UI components dynamically and fill the data into page. All the data about details related to user is stored in a JSON file.
+HTML is used for making initial block structure of the page with some simple data, CSS is used for giving some style to the page and JS is used to create small UI components dynamically and fill the data into page. All the data about details related to user is stored as a JSON object in a JS file.
 
 View it in action https://imvpn22.github.io/resume/
 
@@ -14,7 +14,7 @@ View it in action https://imvpn22.github.io/resume/
 _( Make sure you have a GitHub account )_
 1. Fork this repo by clicking the **Fork** button on top-right corner.
 2. Go to the forked repo on your profile (It opens by default).    
-3. Edit `data/profile.json` file using GitHub online editor and fill your own data.  
+3. Edit `data/profile.js` file using GitHub online editor and fill your own data.  
 4. Open the settings of repo and enable [github pages](https://pages.github.com/) choosing source to `master` branch.  
 5. Visit `https://<your GitHub username>.github.io/resume` in your browser.  
 6. Additionaly you can print/save the page as PDF.  
@@ -45,7 +45,7 @@ Hit CTRL-C to stop the server
 
 3. Visit `http://localhost:8080` in browser.   
 
-4. Make changes in `data/profile.json` file, and refresh the page in browser. Additionaly you can also make changes in architecture and design of the page  as well.
+4. Make changes in `data/profile.js` file, and refresh the page in browser. Additionaly you can also make changes in architecture and design of the page  as well.
 
 5. Save/Print the page in PDF. Your Resume is ready.
 
