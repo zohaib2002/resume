@@ -125,7 +125,7 @@ const profileData = {
                     "date": "May - Nov 2018"
                 },
                 {
-                    "desc": "<a target='_blank' href='https://imad.tech'><strong>IMAD</strong></a>, a MOOC provided by <a target='_blank' href='https://onlinecourses.nptel.ac.in/'> <b>NPTEL</b> </a> and <a target='_blank' href='https://hasura.io/'> <strong> Hasura</strong> </a> (<a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>Certificate: https://goo.gl/X3HEdR</a>)",
+                    "desc": "<a target='_blank' href='https://www.imad.tech'><strong>IMAD</strong></a>, a MOOC provided by <a target='_blank' href='https://onlinecourses.nptel.ac.in/'> <b>NPTEL</b> </a> and <a target='_blank' href='https://hasura.io/'> <strong> Hasura</strong> </a> (<a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>Certificate: https://goo.gl/X3HEdR</a>)",
                     "date": "Jan - Mar 2017"
                 },
                 {
