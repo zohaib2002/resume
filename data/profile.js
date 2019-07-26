@@ -95,7 +95,7 @@ const profileData = {
             "desc": "<b>Project Engineer</b> at  <a target='_blank' href='https://www.wipro.com/'> <strong> Wipro </strong> </a>",
             "date": "Aug 2018 - Present",
             "details": [
-                "Working as Frontend Developer in internal project with a tech-stack of Angular-Bootstrap.",
+                "Working as Frontend Developer in internal project with a tech-stack of Angular, Angular-Material.",
                 "Responsible for implementing reusable UI/UX components and interacting with backend service."
             ]
         },
