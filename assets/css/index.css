@@ -6,13 +6,19 @@ html {
 body {
   margin: 0 auto;
   color: #222;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+}
+* {
+  box-sizing: border-box;
 }
 
 .container {
   padding: 10px 15px;
   margin: 10px auto;
   box-sizing: border-box;
-    max-width: 800px !important;
+  max-width: 800px !important;
+  /* border: 1px solid #ddd; */
 }
 
 /* Links */
@@ -21,7 +27,7 @@ a {
   color: #3173bb !important;
 }
 .link-title {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #222;
 }
@@ -30,7 +36,7 @@ a {
 
 .header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
   /* padding: 15px; */
@@ -47,33 +53,51 @@ a {
   border-radius: 50%;
 }
 
-.header-title-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: .5rem 0; */
+}
+.profile-name {
   font-family: "Source Sans Pro";
   text-transform: uppercase;
-  font-weight: 100;
-  font-size: 2.4em;
-  letter-spacing: 0.2em;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
   text-align: center;
 }
+.profile-contact {
+  font-size: .8rem;
+  color: #3173bb;
+  border: none;
+}
+
+
 .header-subtitle {
   font-family: "Source Sans Pro";
-  font-size: 70%;
+  font-size: .9rem;
   color: #999;
-  padding: 5px 3px;
+  /* padding: 5px 3px; */
   letter-spacing: 1px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.contact-item {
+  display: flex;
+  /* padding: 0 7px; */
+  /* border-left: 1px solid #3173bb; */
+  color: #3173bb;
+}
+.contact-icon {
+  color: #3173bb;
+  padding: 0 .3rem;
 }
 
 .info-section {
-  padding: 1em 0 0 0;
+  padding: 1rem 0 0 0;
 }
 .info-row {
   display: flex;
@@ -93,7 +117,9 @@ a {
 .cat-header {
   padding: 3px 0;
   box-sizing: border-box;
-  font-size: 1.1em;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
   /* border-top: 1px solid #f0f0f0; */
 }
 .cat-indicator {
@@ -114,18 +140,6 @@ a {
 /* Contact style */
 .cat-contact-body {
 }
-.contact-item {
-  display: flex;
-  padding: 0 7px;
-  border-left: 1px solid;
-  color: #3173bb;
-}
-.contact-item:first-child {
-  border: none;
-}
-.contact-logo {
-  color: #3173bb;
-}
 
 /* Lists */
 .cat-list-body {
@@ -138,7 +152,7 @@ a {
 }
 .cat-list-body li {
   padding: 5px 0;
-  padding-left: 0.9em;
+  padding-left: 0.9rem;
 }
 
 /* Education */
@@ -165,7 +179,7 @@ a {
   /* margin-top: 5px; */
 }
 .edu-std {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
   color: #666;
 }
 .edu-score {
@@ -181,7 +195,7 @@ a {
 .cat-contact-body,
 .cat-skill-body {
   font-family: "Source Sans Pro";
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 
 /* Project */
@@ -200,7 +214,7 @@ a {
   padding: 4px 0 4px 16px;
   border-left: 2px solid beige;
   font-style: italic;
-  font-size: .9em;
+  font-size: .9rem;
 }
 
 /* Skills */
@@ -216,78 +230,78 @@ a {
 }
 /* .cat-skill-type:before {
   content: "\25c6";
-  margin-top: -0.1em;
+  margin-top: -0.1rem;
   position: absolute;
-  margin-left: -1.5em;
+  margin-left: -1.5rem;
   color: #3173bb;
-} */
-.cat-skill-body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 0 5px 40px;
-}
-.cat-skill-body-gen {
-  display: inline-block;
-}
-.skill {
-  margin: 10px 0;
-  padding: 0 10px;
-  box-sizing: border-box;
-}
-.skill-gen {
-  display: inline;
-  padding: 3px 10px;
-  margin: 0 5px;
-  background-color: #222;
-  border-radius: 3px;
-  color: #fff;
-  font-family: "Source Sans Pro";
-}
-.skill-gen:first-child {
-  /* margin-left: 30px; */
-}
-.skill-title,
-.skill-gen {
-  font-size: 0.8em;
-}
-.skill-progress-track {
-  height: 10px;
-  min-width: 150px;
-  background-color: #eee;
-  margin-top: 6px;
-  border-radius: 6px;
-}
-.skill-progress {
-  height: 100%;
-  background-color: #3173bb;
-  border-radius: 6px;
-}
+  } */
+  .cat-skill-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 5px 40px;
+  }
+  .cat-skill-body-gen {
+    display: inline-block;
+  }
+  .skill {
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .skill-gen {
+    display: inline;
+    padding: 3px 10px;
+    margin: 0 5px;
+    background-color: #222;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Source Sans Pro";
+  }
+  .skill-gen:first-child {
+    /* margin-left: 30px; */
+  }
+  .skill-title,
+  .skill-gen {
+    font-size: 0.8rem;
+  }
+  .skill-progress-track {
+    height: 10px;
+    min-width: 150px;
+    background-color: #eee;
+    margin-top: 6px;
+    border-radius: 6px;
+  }
+  .skill-progress {
+    height: 100%;
+    background-color: #3173bb;
+    border-radius: 6px;
+  }
 
-.pad-bottom-extra {
-  padding-bottom: 20px;
-}
+  .pad-bottom-extra {
+    padding-bottom: 20px;
+  }
 
-.ach-item {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.ach-title {
-}
-.ach-duration {
-  color: #777;
-  font-style: italic;
-}
-.expDet {
+  .ach-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ach-title {
+  }
+  .ach-duration {
+    color: #777;
+    font-style: italic;
+  }
+  .expDet {
     list-style-type: disc !important;
     color: #444;
     padding: 4px 0 4px 16px;
-/*    border-left: 2px solid beige;*/
+    /*    border-left: 2px solid beige;*/
     font-style: italic;
-    font-size: .9em;
-}
-.expDet > li {
+    font-size: .9rem;
+  }
+  .expDet > li {
     padding: 1px 0 !important;
-    padding-left: 0.3em !important;
-}
+    padding-left: 0.3rem !important;
+  }

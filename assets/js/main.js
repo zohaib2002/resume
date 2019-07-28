@@ -1,7 +1,7 @@
 /* Define all the functions */
 
 setTitle = (data) => {
-    document.querySelector('.header-title').innerHTML = data.name;
+    document.querySelector('#profileName').innerHTML = data.name;
     // document.querySelector('.header-subtitle').innerHTML = data.sub_title;
     document.querySelector('#aboutIntro').innerHTML = data.about.intro;
     document.querySelector('#contactEmail').innerHTML = data.about.contact.email;

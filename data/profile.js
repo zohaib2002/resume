@@ -29,7 +29,7 @@ const profileData = {
         {
             "alma": "FET, GKV, Haridwar",
             "duration": "2014 - 2018",
-            "std": "B. Tech. (CSE)",
+            "std": "Bachelor of Technology (Computer Science & Engineering)",
             "score": "71%"
         },
         {
