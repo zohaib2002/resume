@@ -11,20 +11,11 @@ const profileData = {
             "portfolio": "https://github.com/imvpn22"
         }
     },
-    "links": [
-        {
-            "title": "GitHub",
-            "src": "https://github.com/imvpn22"
-        },
-        {
-            "title": "LinkedIn",
-            "src": "https://www.linkedin.com/in/imvpn22"
-        },
-        {
-            "title": "Twitter",
-            "src": "https://twitter.com/imvpn22"
-        }
-    ],
+    "links": {
+        "GitHub": "https://github.com/imvpn22",
+        "LinkedIn": "https://www.linkedin.com/in/imvpn22",
+        "Twitter": "https://twitter.com/imvpn22"
+    },
     "education": [
         {
             "alma": "FET, GKV, Haridwar",
@@ -95,8 +86,8 @@ const profileData = {
             "desc": "<b>Project Engineer</b> at  <a target='_blank' href='https://www.wipro.com/'> <strong> Wipro </strong> </a>",
             "date": "Aug 2018 - Present",
             "details": [
+                "Responsible for implementing reusable UI/UX components and interacting with backend service.",
                 "Working as Frontend Developer in internal project with a tech-stack of Angular, Angular-Material.",
-                "Responsible for implementing reusable UI/UX components and interacting with backend service."
             ]
         },
         {

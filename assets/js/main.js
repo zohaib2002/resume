@@ -10,6 +10,8 @@ setTitle = (data) => {
     // document.querySelector('#contactAddress').innerHTML = data.about.contact.address;
     document.querySelector('#contactWebsite').innerHTML = data.about.contact.portfolio;
     document.querySelector('#contactWebsite').setAttribute("href", `${data.about.contact.portfolio}`);
+    document.querySelector('#contactLinkedin').innerHTML = data.links.LinkedIn;
+    document.querySelector('#contactLinkedin').setAttribute("href", `${data.links.LinkedIn}`);
 }
 
 setLinks = (links) => {
