@@ -47,13 +47,15 @@ const profileData = {
             "topics": [
                 "MongoDB",
                 "MySQL",
-                "PostgreSQL"
+                "PostgreSQL",
+                "Oracle PL/SQL"
             ]
         },
         {
             "graph": "false",
             "category": "Frameworks / Libraries",
             "topics": [
+                "SCSS",
                 "NodeJS",
                 "ReactJS",
                 "Angular",
@@ -86,8 +88,9 @@ const profileData = {
             "desc": "<b>Project Engineer</b> at  <a target='_blank' href='https://www.wipro.com/'> <strong> Wipro </strong> </a>",
             "date": "Aug 2018 - Present",
             "details": [
+                "Worked on various Web-Application projects, with couple of web technologies.",
+                "Currently working on a project with a tech-stack of Angular, Angular-Material, NodeJS-Express and MongoDB.",
                 "Responsible for implementing reusable UI/UX components and interacting with backend service.",
-                "Working as Frontend Developer in internal project with a tech-stack of Angular, Angular-Material.",
             ]
         },
         {
