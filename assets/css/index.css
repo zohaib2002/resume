@@ -79,12 +79,12 @@ a {
   font-family: "Source Sans Pro";
   font-size: .9rem;
   color: #999;
-  /* padding: 5px 3px; */
+  padding: 5px 0;
   letter-spacing: 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .contact-item {
   display: flex;
