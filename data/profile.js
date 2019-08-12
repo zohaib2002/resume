@@ -16,8 +16,7 @@ const profileData = {
         "LinkedIn": "https://www.linkedin.com/in/imvpn22",
         "Twitter": "https://twitter.com/imvpn22"
     },
-    "education": [
-        {
+    "education": [{
             "alma": "FET, GKV, Haridwar",
             "duration": "2014 - 2018",
             "std": "Bachelor of Technology (Computer Science & Engineering)",
@@ -30,8 +29,7 @@ const profileData = {
             "score": "90%"
         }
     ],
-    "skills": [
-        {
+    "skills": [{
             "graph": "false",
             "category": "Programming Languages",
             "topics": [
@@ -63,8 +61,7 @@ const profileData = {
             ]
         }
     ],
-    "projects": [
-        {
+    "projects": [{
             "title": "Restaurant Review",
             "duration": "June - Nov 2018",
             "link": "https://github.com/imvpn22/restaurant-review-pwa",
@@ -83,8 +80,7 @@ const profileData = {
             "desc": "Official website for Jnanagni 2017 - FET, GKV's Annual Techfest"
         }
     ],
-    "experiences": [
-	{
+    "experiences": [{
             "desc": "<b>Project Engineer</b> at  <a target='_blank' href='https://www.wipro.com/'> <strong> Wipro </strong> </a>",
             "date": "Aug 2018 - Present",
             "details": [
@@ -110,11 +106,9 @@ const profileData = {
             ]
         }
     ],
-    "events": [
-        {
+    "events": [{
             "title": "certifications",
-            "body": [
-                {
+            "body": [{
                     "desc": "<strong>Mobile Web Specialist</strong>, a Nanodegree provided by <a target='_blank' href='https://in.udacity.com//'> <b>Udacity</b>  (<a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'>Certificate: https://goo.gl/RGRzVn</a>)",
                     "date": "May - Nov 2018"
                 },
@@ -130,8 +124,7 @@ const profileData = {
         },
         {
             "title": "other",
-            "body": [
-                {
+            "body": [{
                     "desc": "<strong>NPAT</strong>(<b>N</b>ATIONAL <b>P</b>ROGRAMMING <b>A</b>PTITUDE <b>T</b>EST) <a target='_blank' href='https://npat.nptel.ac.in/npat_2017/certificate?id=117913621007613125255'>(Certificate link)</a> ",
                     "date": "Aug 2017"
                 },
@@ -146,4 +139,4 @@ const profileData = {
             ]
         }
     ]
-}
+};
