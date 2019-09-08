@@ -3,7 +3,8 @@ const profileData = {
     "name": "Vipin Yadav",
     "sub_title": "Full Stack Developer",
     "about": {
-        "intro": "I am a responsible, innovative, passionate and committed professional. Experience in designing and implementing sophisticated Web-applications. Proficient in UI/UX standards, infrastructure and Application Life-Cycle management.",
+        "intro": `I am a innovative and passionate developer with a primary interest in <strong>JavaScript</strong>.
+        Experienced in designing and implementing sophisticated UI/UX with Progressive Web Application standards and application life-cycle management.`,
         "contact": {
             "email": "imvpn22@gmail.com",
             "phone": "+91-9919716378",
@@ -35,8 +36,7 @@ const profileData = {
             "topics": [
                 "C",
                 "C++",
-                "JavaScript",
-                "Python3"
+                "JavaScript"
             ]
         },
         {
@@ -44,7 +44,6 @@ const profileData = {
             "category": "Databases",
             "topics": [
                 "MongoDB",
-                "MySQL",
                 "PostgreSQL",
                 "Oracle PL/SQL"
             ]
@@ -53,11 +52,14 @@ const profileData = {
             "graph": "false",
             "category": "Frameworks / Libraries",
             "topics": [
-                "SCSS",
                 "NodeJS",
-                "ReactJS",
                 "Angular",
-                "VueJS"
+                "ReactJS",
+                "SCSS",
+                "LESS",
+                "Gulp",
+                "Grunt",
+                "Webpack"
             ]
         }
     ],
@@ -85,7 +87,7 @@ const profileData = {
             "date": "Aug 2018 - Present",
             "details": [
                 "Worked on various Web-Application projects, with couple of web technologies.",
-                "Currently working on a project with a tech-stack of Angular, Angular-Material, NodeJS-Express and MongoDB.",
+                "Currently working on a project with a tech-stack of Angular, Angular-Material and NodeJS-Express.",
                 "Responsible for implementing reusable UI/UX components and interacting with backend service.",
             ]
         },
