@@ -2,13 +2,10 @@ body,
 html {
   width: 100%;
   height: 100%;
-}
-
-body {
   margin: 0 auto;
   color: #222;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 * {
@@ -18,7 +15,6 @@ body {
 .container {
   padding: 10px 15px;
   margin: 10px auto;
-  box-sizing: border-box;
   max-width: 800px !important;
   /* border: 1px solid #ddd; */
 }
@@ -39,7 +35,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-sizing: border-box;
   /* padding: 15px; */
   /* border-bottom: 2px solid #ececec; */
 }
@@ -75,6 +70,9 @@ a {
   color: #3173bb;
   border: none;
   text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 
@@ -92,14 +90,14 @@ a {
 
 .contact-item {
   display: flex;
-  /* padding: 0 7px; */
-  /* border-left: 1px solid #3173bb; */
+  align-items: center;
   color: #3173bb;
 }
 
 .contact-icon {
   color: #3173bb;
-  padding: 0 .3rem;
+  margin-right: .5rem;
+  font-size: 1rem;
 }
 
 .info-section {
@@ -113,7 +111,6 @@ a {
 
 .cat-header {
   padding: 3px 0;
-  box-sizing: border-box;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
@@ -139,7 +136,7 @@ a {
 
 /* Lists */
 .cat-list-body {
-  padding: 2px 0 10px 30px;
+  padding: 2px 0 10px 23px;
 }
 
 .cat-list-body ul {
@@ -149,8 +146,8 @@ a {
 }
 
 .cat-list-body li {
-  padding: 5px 0;
-  padding-left: 0.9rem;
+  padding: 5px 5px;
+  /* padding-left: 0.9rem; */
 }
 
 /* Education */
@@ -211,7 +208,7 @@ a {
   color: #444;
   padding: 4px 0 4px 16px;
   border-left: 2px solid beige;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: .9rem;
 }
 
@@ -226,6 +223,7 @@ a {
   font-weight: 600;
   letter-spacing: 1px;
   padding: 5px 0;
+  padding-right: 1rem;
 }
 
 /* .cat-skill-type:before {
@@ -249,7 +247,6 @@ a {
 .skill {
   margin: 10px 0;
   padding: 0 10px;
-  box-sizing: border-box;
 }
 
 .skill-gen {
@@ -291,6 +288,10 @@ a {
   justify-content: space-between;
 }
 
+.ach-title {
+  font-size: 1rem;
+}
+
 .ach-duration {
   color: #777;
   font-style: italic;
@@ -301,7 +302,7 @@ a {
   color: #444;
   padding: 4px 0 4px 16px;
   /*    border-left: 2px solid beige;*/
-  font-style: italic;
+  /* font-style: italic; */
   font-size: .9rem;
 }
 
@@ -329,10 +330,10 @@ a {
   .contact-item {
     /* width: 100%; */
     display: block;
+    cursor: pointer;
   }
 
   .contact-icon {
-    padding: 0 .3rem;
     min-width: 1.8rem;
     text-align: center;
   }
