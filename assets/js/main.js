@@ -1,6 +1,9 @@
 /* Define all the functions */
 
 setTitle = data => {
+  // Set page title
+  document.title = `Résumé | ${data.name}`;
+
   document.querySelector('#profileName').innerHTML = data.name;
   // document.querySelector('.header-subtitle').innerHTML = data.sub_title;
   document.querySelector('#aboutIntro').innerHTML = data.about.intro;

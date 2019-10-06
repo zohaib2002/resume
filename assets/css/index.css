@@ -6,6 +6,7 @@ html {
   color: #222;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
+  background-color: #fff;
 }
 
 * {
@@ -33,10 +34,10 @@ a {
 
 .header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* padding: 15px; */
-  /* border-bottom: 2px solid #ececec; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 2px solid #f5f5f5;
 }
 
 .logo {
@@ -50,42 +51,30 @@ a {
 }
 
 .header-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   /* padding: .5rem 0; */
+  flex: 1;
 }
 
 .profile-name {
   font-family: "Source Sans Pro";
+  font-size: 2.4rem;
+  font-weight: 100;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 2rem;
-  letter-spacing: 0.2rem;
-  text-align: center;
-}
-
-.profile-contact {
-  font-size: .8rem;
-  color: #3173bb;
-  border: none;
   text-align: right;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
 }
 
-
-.header-subtitle {
-  font-family: "Source Sans Pro";
-  font-size: .9rem;
+.profile-title {
+  font-size: .8rem;
+  font-weight: 100;
   color: #999;
-  padding: 5px 0;
   letter-spacing: 1px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.contact-section {
+  padding: 1rem;
 }
 
 .contact-item {
@@ -102,19 +91,33 @@ a {
 
 .info-section {
   padding: 1rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-left {
+  width: 40%;
+  border-right: 2px solid #f5f5f5;
+  padding-right: 1rem;
+}
+
+.info-right {
+  width: 60%;
+  padding-left: 1rem;
 }
 
 .info-row {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 100%;
 }
 
 .cat-header {
-  padding: 3px 0;
+  padding: .4rem 0;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
-  /* border-top: 1px solid #f0f0f0; */
+  border-bottom: 1px solid #f5f5f5;
 }
 
 .cat-indicator {
@@ -136,7 +139,7 @@ a {
 
 /* Lists */
 .cat-list-body {
-  padding: 2px 0 10px 23px;
+  padding: .5rem 0;
 }
 
 .cat-list-body ul {
@@ -233,6 +236,7 @@ a {
   margin-left: -1.5rem;
   color: #3173bb;
   } */
+
 .cat-skill-body {
   display: flex;
   flex-wrap: wrap;
@@ -340,7 +344,7 @@ a {
 
   .cat-def-body,
   .cat-skill-body {
-    padding: 2px 0px 10px 22px;
+    padding: .5rem 0 .5rem 1.4rem;
   }
 
   .cat-list-body {
