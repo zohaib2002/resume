@@ -2,8 +2,11 @@
 
 setTitle = data => {
   // Set page title
-  document.title = `Résumé | ${data.name}`;
+  document.title = `${data.title} | ${data.name}`;
 
+  document.querySelector('#profileLogo').style[
+    'background-image'
+  ] = `url(${data.logoURL})`;
   document.querySelector('#profileName').innerHTML = data.name;
   // document.querySelector('.header-subtitle').innerHTML = data.sub_title;
   document.querySelector('#aboutIntro').innerHTML = data.about.intro;
@@ -11,21 +14,14 @@ setTitle = data => {
   document
     .querySelector('#contactEmail')
     .setAttribute('href', `mailto:${data.about.contact.email}`);
+
   document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
-  // document.querySelector('#contactAddress').innerHTML = data.about.contact.address;
-  document.querySelector('#contactWebsite').innerHTML =
-    data.about.contact.portfolio;
-  document
-    .querySelector('#contactWebsite')
-    .setAttribute('href', `${data.about.contact.portfolio}`);
-  document.querySelector('#contactLinkedin').innerHTML = data.links.LinkedIn;
-  document
-    .querySelector('#contactLinkedin')
-    .setAttribute('href', `${data.links.LinkedIn}`);
+  document.querySelector('#contactAddress').innerHTML =
+    data.about.contact.address;
 };
 
 setLinks = links => {
-  let ul = document.querySelector('#linkList');
+  let linksList = document.querySelector('#linksList');
   links.forEach(link => {
     let li = document.createElement('li');
     let title = document.createElement('div');
@@ -42,7 +38,7 @@ setLinks = links => {
     linkSrc.appendChild(a);
     li.appendChild(linkSrc);
 
-    ul.appendChild(li);
+    linksList.appendChild(li);
   });
 };
 
@@ -98,25 +94,25 @@ setProjects = projects => {
     projectTitle.innerHTML = project.title;
     projectHeader.appendChild(projectTitle);
 
-    if (project.link.length > 5) {
-      let projectLink = document.createElement('span');
-      projectLink.className = 'project-link';
-
-      let a = document.createElement('a');
-      a.href = project.link;
-      a.target = '_blank';
-      a.innerHTML = `(${project.link})`;
-
-      projectLink.appendChild(a);
-      projectHeader.appendChild(projectLink);
-    }
-
     let projectDuration = document.createElement('span');
     projectDuration.className = 'project-duration';
     projectDuration.innerHTML = project.duration;
     projectHeader.appendChild(projectDuration);
 
     li.appendChild(projectHeader);
+
+    if (!!project.link) {
+      let projectLink = document.createElement('span');
+      projectLink.className = 'project-link';
+
+      let a = document.createElement('a');
+      a.href = project.link;
+      a.target = '_blank';
+      a.innerHTML = `${project.link}`;
+
+      projectLink.appendChild(a);
+      li.appendChild(projectLink);
+    }
 
     let projectDesc = document.createElement('div');
     projectDesc.className = 'project-desc';
@@ -135,7 +131,7 @@ setSkills = skills => {
     let body_klass = 'cat-skill-body';
 
     if (skill.graph == 'false') {
-      // type_klass += " force-inline";
+      type_klass += ' force-inline';
       body_klass += '-gen';
     }
 
@@ -303,6 +299,7 @@ correctHTML = () => {
 (() => {
   // Call functions to load profile
   setTitle(profileData);
+  setLinks(profileData.links);
   setExperience(profileData.experiences);
   setProjects(profileData.projects);
   setSkills(profileData.skills);
