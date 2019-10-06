@@ -1,6 +1,9 @@
 /* Define all the functions */
 
 setTitle = data => {
+  // Set page title
+  document.title = `Résumé | ${data.name}`;
+
   document.querySelector('#profileName').innerHTML = data.name;
   // document.querySelector('.header-subtitle').innerHTML = data.sub_title;
   document.querySelector('#aboutIntro').innerHTML = data.about.intro;
@@ -139,12 +142,12 @@ setSkills = skills => {
     let catSkillItem = document.createElement('li');
     catSkillItem.className = 'cat-skill-item';
 
-    let catSkillType = document.createElement('span');
+    let catSkillType = document.createElement('div');
     catSkillType.className = type_klass;
     catSkillType.innerHTML = skill.category;
     catSkillItem.appendChild(catSkillType);
 
-    let catSkillBody = document.createElement('span');
+    let catSkillBody = document.createElement('div');
     catSkillBody.className = body_klass;
 
     if (skill.graph == 'true') {

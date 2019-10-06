@@ -2,118 +2,140 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Résumé | Vipin Yadav</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Résumé | John Doe</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="header-title">
-                <div class="profile-name" id="profileName">
-                    Your Name
-                </div>
-                <div>
-                    <div class="profile-contact">
-                        <span class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </span>
-                        <span id="contactPhone"> +91-1234567890 </span>
-                    </div>
-                    <div class="profile-contact">
-                        <span class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </span>
-                        <a id="contactEmail" target="_blank" href="">
-                            abc@xyz.com
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="header-subtitle">
-                <div class="contact-item">
-                    <span class="contact-icon">
-                        <i class="fab fa-github-alt"></i>
-                    </span>
-                    <a id="contactWebsite" target="_blank" href="">
-                        https://profile.com
-                    </a>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-icon">
-                        <i class="fab fa-linkedin-in"></i>
-                    </span>
-                    <a id="contactLinkedin" target="_blank" href="">
-                        https://www.linkedin.com/in/imvpn22
-                    </a>
-                </div>
-            </div>
+  <div class="container">
+    <section class="header">
+      <div class="logo"> </div>
+      <div class="header-title">
+        <div class="profile-name" id="profileName"> Your Name </div>
+        <div class="profile-title"> Javascript Developer </div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <div class="info-left">
+        <div class="cat-header">
+          <span class="cat-indicator">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </span>
+          <span class="cat-title">About Me</span>
         </div>
-        <div class="info-section">
-            <div class="info-col info-left">
-                <div class="cat-header">
-                    <span class="cat-indicator">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                    </span>
-                    <span class="cat-title">About Me</span>
-                </div>
-                <div class="cat-def-body" id="aboutIntro">
-                    This is something about me
-                </div>
-            </div>
-            <div class="info-col info-right">
-                <div class="cat-header">
-                    <span class="cat-indicator">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                    </span>
-                    <span class="cat-title">Work Experience</span>
-                </div>
-                <div class="cat-list-body">
-                    <ul id="experienceList"></ul>
-                </div>
-
-                <div class="cat-header">
-                    <span class="cat-indicator">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                    </span>
-                    <span class="cat-title">Skills</span>
-                </div>
-                <div class="cat-list-body">
-                    <ul id="skillList"></ul>
-                </div>
-
-                <div class="cat-header">
-                    <span class="cat-indicator">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                    </span>
-                    <span class="cat-title"> Projects</span>
-                </div>
-                <div class="cat-list-body">
-                    <ul id="projectList"></ul>
-                </div>
-
-                <div class="cat-header">
-                    <span class="cat-indicator">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                    </span>
-                    <span class="cat-title">Education</span>
-                </div>
-                <div class="cat-list-body">
-                    <ul id="educationList"></ul>
-                </div>
-            </div>
+        <div class="cat-def-body" id="aboutIntro">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ipsa ratione quisquam quae dolorem,
+          voluptatum dolores dicta est assumenda aperiam fugit alias, cupiditate nihil. Dolorum, sit ut. Eaque, harum
+          ratione.
         </div>
-        <div class="footer"></div>
-    </div>
-    <script src="data/profile.js"></script>
-    <script src="assets/js/main.js"></script>
+        <div class="cat-header">
+          <span class="cat-indicator">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </span>
+          <span class="cat-title">Contact</span>
+        </div>
+        <div class="contact-section">
+          <div class="contact-item">
+            <span class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </span>
+            <span id="contactPhone"> +91-1234567890 </span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <a id="contactEmail" target="_blank" href="">
+              abc@xyz.com
+            </a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">
+              <i class="fab fa-github-alt"></i>
+            </span>
+            <a id="contactWebsite" target="_blank" href="">
+              https://profile.com
+            </a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </span>
+            <a id="contactLinkedin" target="_blank" href="">
+              https://www.linkedin.com/in/imvpn22
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-right">
+        <div class="cat-header">
+          <span class="cat-indicator">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </span>
+          <span class="cat-title">Work Experience</span>
+        </div>
+        <div class="cat-list-body">
+          <ul id="experienceList"></ul>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Educaation listing section -->
+    <section class="info-row">
+      <div class="cat-header">
+        <span class="cat-indicator">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </span>
+        <span class="cat-title">Education</span>
+      </div>
+      <div class="cat-list-body">
+        <ul id="educationList"></ul>
+      </div>
+    </section>
+
+    <!-- Projects Listing section -->
+    <section class="info-row">
+      <div class="cat-header">
+        <span class="cat-indicator">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </span>
+        <span class="cat-title">
+          Projects</span>
+      </div>
+      <div class="cat-list-body">
+        <ul id="projectList"></ul>
+      </div>
+    </section>
+
+    <!-- Skills listing section -->
+    <section class="info-row">
+      <div class="cat-header">
+        <span class="cat-indicator">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </span>
+        <span class="cat-title">Skills</span>
+      </div>
+      <div class="cat-list-body">
+        <ul id="skillList"></ul>
+      </div>
+    </section>
+
+    <!-- Other contents section -->
+    <section class="footer"></section>
+
+  </div>
+  <script src="data/profile.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
