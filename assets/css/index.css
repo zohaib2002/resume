@@ -4,7 +4,7 @@ html {
   height: 100%;
   margin: 0 auto;
   color: #222;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   background-color: #fff;
 }
@@ -27,7 +27,6 @@ a {
   max-width: 60rem;
 }
 
-
 .link-title {
   font-size: 1rem;
   letter-spacing: 1px;
@@ -45,7 +44,7 @@ a {
 .profile-logo {
   width: 100px;
   height: 100px;
-  background-image: url("/assets/images/avatar.jpg");
+  background-image: url('assets/images/avatar.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -58,7 +57,7 @@ a {
 }
 
 .header-title {
-  font-family: "Source Sans Pro";
+  font-family: 'Source Sans Pro';
   font-size: 2.4rem;
   font-weight: 100;
   letter-spacing: 0.3rem;
@@ -67,7 +66,7 @@ a {
 }
 
 .header-sub-title {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 100;
   color: #999;
   letter-spacing: 1px;
@@ -76,15 +75,15 @@ a {
 }
 
 .contact-section {
-  padding: .5rem 0;
-  font-size: .9rem;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
   color: #3173bb;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .contact-logo {
@@ -120,7 +119,7 @@ a {
 }
 
 .cat-header {
-  padding: .4rem 0;
+  padding: 0.4rem 0;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
@@ -132,7 +131,7 @@ a {
 }
 
 .cat-title {
-  font-family: "Source Sans Pro";
+  font-family: 'Source Sans Pro';
   text-transform: uppercase;
   letter-spacing: 5px;
   vertical-align: text-bottom;
@@ -147,7 +146,7 @@ a {
 
 /* Lists */
 .cat-list-body {
-  padding: .3rem 0 1rem 0;
+  padding: 0.3rem 0 1rem 0;
 }
 
 .cat-list-body ul {
@@ -157,7 +156,7 @@ a {
 }
 
 .cat-list-body li {
-  padding: .6rem 0;
+  padding: 0.6rem 0;
   padding-left: 0.6rem;
 }
 
@@ -205,7 +204,7 @@ a {
 .cat-list-body,
 .cat-contact-body,
 .cat-skill-body {
-  font-family: "Source Sans Pro";
+  font-family: 'Source Sans Pro';
   font-size: 0.9rem;
 }
 
@@ -220,13 +219,13 @@ a {
   padding: 4px 0 4px 16px;
   border-left: 2px solid beige;
   /* font-style: italic; */
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 /* Skills */
 .cat-skill-item {
   padding: 0.2rem 0 !important;
-  padding-left: .6rem !important;
+  padding-left: 0.6rem !important;
 }
 
 .cat-skill-type {
@@ -274,7 +273,7 @@ a {
   background-color: #222;
   border-radius: 3px;
   color: #fff;
-  font-family: "Source Sans Pro";
+  font-family: 'Source Sans Pro';
 }
 
 .skill-title,
@@ -306,6 +305,18 @@ a {
   justify-content: space-between;
 }
 
+.exp-org {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #444;
+}
+
+.exp-title {
+  color: #777;
+  font-style: italic;
+}
+
 .ach-title {
   font-size: 1rem;
 }
@@ -321,10 +332,10 @@ a {
   padding: 4px 0 4px 16px;
   /*    border-left: 2px solid beige;*/
   /* font-style: italic; */
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
-.expDet>li {
+.expDet > li {
   padding: 1px 0 !important;
   padding-left: 0.3rem !important;
 }
@@ -338,7 +349,7 @@ a {
 
   .header-title .profile-contact {
     text-align: left;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .header-subtitle {
@@ -358,7 +369,7 @@ a {
 
   .cat-def-body,
   .cat-skill-body {
-    padding: .5rem 0 .5rem 1.4rem;
+    padding: 0.5rem 0 0.5rem 1.4rem;
   }
 
   .cat-list-body {
@@ -384,7 +395,7 @@ a {
     border-radius: 54px;
     color: #333;
     font-weight: 600;
-    font-family: "Source Sans Pro";
+    font-family: 'Source Sans Pro';
     background: #ddd;
   }
 
@@ -394,6 +405,6 @@ a {
     padding: 4px 0;
     /* border-left: 2px solid #ddd; */
     /* font-style: italic; */
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }

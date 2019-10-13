@@ -1,8 +1,8 @@
 const profileData = {
   title: 'Résumé',
   name: 'Vipin Yadav',
-  sub_title: 'Software Engineer',
-  logoURL: '/assets/images/dp.jpg',
+  sub_title: 'Javascript Developer',
+  logoURL: 'assets/images/dp.jpg',
   about: {
     intro: `I am a innovative and passionate developer with a primary interest in <strong>JavaScript</strong>.
         Experienced in designing and implementing sophisticated UI/UX with Progressive Web Application standards and application life-cycle management.`,
@@ -80,7 +80,9 @@ const profileData = {
   ],
   experiences: [
     {
-      desc: `<strong>Project Engineer</strong> at  <a target='_blank' href='https://www.wipro.com/'> <strong> Wipro </strong> </a>`,
+      organization: 'Wipro',
+      title: `Project Engineer`,
+      desc: `Project Engineer`,
       date: 'Aug 2018 - Present',
       details: [
         'Working on a project with a tech-stack of Angular, Angular-Material and NodeJS-Express.',
@@ -88,16 +90,20 @@ const profileData = {
       ]
     },
     {
+      organization: 'Venuemonk',
+      title: 'Full-Stack Developer Intern',
       desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' href='https://www.venuemonk.com/'> <strong> Venuemonk </strong> </a> (<a target='_blank' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
-      date: 'Jan - Apr 2018',
+      date: 'Jan 2018 - Apr 2018',
       details: [
         'Responsible for developing a web-application <strong>Venue OnBoarding</strong> from design to implementation.',
         'Work included developing ReactJS-Redux frontend and integrating it with NodeJS-ExpressJS-MongoDB backend.'
       ]
     },
     {
+      organization: 'Hasura',
+      title: 'Product Development Intern',
       desc: `<strong>Product development intern</strong> at <a target='_blank' href='https://hasura.io/'> <strong> Hasura </strong> </a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7UmlrUDlsMkVwajg/view?usp=sharing'> https://goo.gl/8V3jBy</a>)`,
-      date: 'May - Aug 2017',
+      date: 'May 2017 - Aug 2017',
       details: [
         'Responsible for developing web-application using Hasura platform APIs.',
         'Work included designing and implementing frontend application in HTML5-CSS3-JavaScript.'
