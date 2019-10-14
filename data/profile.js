@@ -61,7 +61,9 @@ const profileData = {
       title: 'Restaurant Review',
       duration: 'June - Nov 2018',
       link: 'https://github.com/imvpn22/restaurant-review-pwa',
-      desc: `Udacity's 'Mobile Web Specialist Restaurant Reviews App' Project for  MWS Nanodegree`
+      desc: `A frontend web application to list and view restaurents based on location. 
+      Developed using HTML5, CSS3 and vanilla JavaScript with Progressive Web-Application Standards 
+      including Full Responsiveness, Offline Support and Accessibility.`
     },
     {
       title: 'WhiteBoard',
@@ -70,12 +72,6 @@ const profileData = {
       desc: `A simple web-app for collaborative brainstorming sessions. 
       The app includes a real-time messaging and sketching platform for collaboration with Peers. 
       Developed using Node.js, Express, Socket.io and vanilla JS.`
-    },
-    {
-      title: 'Jnanagni 2017',
-      duration: 'Jan - Mar 2017',
-      link: 'https://github.com/methusael13/jnanagni17',
-      desc: `Official website for Jnanagni 2017 - FET, GKV's Annual Techfest`
     }
   ],
   experiences: [
@@ -115,16 +111,29 @@ const profileData = {
       title: 'certifications',
       body: [
         {
-          desc: `<strong>Mobile Web Specialist</strong>, a Nanodegree provided by <a target='_blank' href='https://in.udacity.com//'> <strong>Udacity</strong>  (<a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'> https://goo.gl/RGRzVn</a>)`,
+          desc: `<strong>Mobile Web Specialist Nanodegree</strong>, certified by <a target='_blank' href='https://in.udacity.com//'> <strong>Udacity</strong>  (<a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'> https://goo.gl/RGRzVn</a>)`,
           date: 'May - Nov 2018'
         },
         {
-          desc: `<a target='_blank' href='https://www.imad.tech'><strong>IMAD</strong></a>, a MOOC provided by <a target='_blank' href='https://onlinecourses.nptel.ac.in/'> <strong>NPTEL</strong> </a> and <a target='_blank' href='https://hasura.io/'> <strong> Hasura</strong> </a> (<a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'> https://goo.gl/X3HEdR</a>)`,
+          desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC certified by <em> NPTEL (IIT Madras) and Hasura </em>. Ranked at <strong> top ten percentile </strong> (<a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'> https://goo.gl/X3HEdR</a>)`,
           date: 'Jan - Mar 2017'
+        }
+      ]
+    },
+    {
+      title: 'Workshops',
+      body: [
+        {
+          desc: `<strong>Emerging Trends in Computer Science</strong>, summer training program with <strong>MNNIT </strong> Allahabad (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7WEVmdlJDcWVZcEE/view?usp=sharing'>Certificate link</a>)`,
+          date: 'Jun - July 2016'
         },
         {
-          desc: `<strong>ETCS</strong>, a Summer Training provided by <a href='http://www.mnnit.ac.in/' target='_blank'> <strong>MNNIT </strong> Allahabad</a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7WEVmdlJDcWVZcEE/view?usp=sharing'>Certificate link</a>)`,
-          date: 'Jun - July 2016'
+          desc: `<strong>Bluemix Enablment</strong> with <strong> IBM </strong> at FET, GKV`,
+          date: 'Mar 2015'
+        },
+        {
+          desc: `<strong>Web Essentials</strong> with KnowWorkshops and CSI Haridwar chapter at FET, GKV`,
+          date: 'Feb 2015'
         }
       ]
     },

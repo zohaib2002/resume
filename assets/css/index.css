@@ -218,7 +218,7 @@ a {
   color: #444;
   padding: 4px 0 4px 16px;
   border-left: 2px solid beige;
-  /* font-style: italic; */
+  font-style: italic;
   font-size: 0.9rem;
 }
 
