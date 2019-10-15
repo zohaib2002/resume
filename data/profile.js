@@ -4,8 +4,9 @@ const profileData = {
   sub_title: 'Javascript Developer',
   logoURL: 'assets/images/dp.jpg',
   about: {
-    intro: `I am a innovative and passionate developer with a primary interest in <strong>JavaScript</strong>.
-        Experienced in designing and implementing sophisticated UI/UX with Progressive Web Application standards and application life-cycle management.`,
+    intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
+     and it's applications. Experienced in designing and implementing sophisticated UI/UX with
+      Progressive Web Application standards and application life-cycle managements.`,
     contact: {
       email: 'imvpn22@gmail.com',
       phone: '+91-9919716378',
