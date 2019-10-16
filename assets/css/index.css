@@ -328,15 +328,14 @@ a {
 
 .expDet {
   list-style-type: disc !important;
-  color: #444;
+  color: #555;
   padding: 4px 0 4px 16px;
-  /*    border-left: 2px solid beige;*/
-  /* font-style: italic; */
+  font-style: italic;
   font-size: 0.9rem;
 }
 
 .expDet > li {
-  padding: 1px 0 !important;
+  padding: 0.3rem 0 !important;
   padding-left: 0.3rem !important;
 }
 

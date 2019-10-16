@@ -82,8 +82,16 @@ const profileData = {
       desc: `Project Engineer`,
       date: 'Aug 2018 - Present',
       details: [
-        'Working on a project with a tech-stack of Angular, Angular-Material and NodeJS-Express.',
-        'Responsible for implementing reusable UI/UX components and interacting with backend service.'
+        `Developed a <strong>collaborative online network blueprint editor</strong> TOSCA, for use in 
+        designing flexible network topologies and generating a YAML (or YANG) configuration file as a result. 
+        This helps Network Engineers to reduce the time taken for design and test a network topology from months to weeks. <br>
+        My responsibility includes translating the design specification into reusable 
+        UI components with sophisticated UX standards, using <strong>Angular</strong> with <strong>SCSS</strong>,
+        <strong>NgRx</strong> and <strong>Angular-Material</strong> components and adding actions to those with 
+        the communication of backend REST-API services.`,
+
+        `Provided production support for an internal project in React.js, Redux and CSS3,
+        <strong>resolved more than 100 UI/UX issues</strong> coming after QA testing.`
       ]
     },
     {
