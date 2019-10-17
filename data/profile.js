@@ -93,14 +93,14 @@ const profileData = {
       desc: `Project Engineer`,
       date: 'Aug 2018 - Present',
       details: [
-        `As a member of frontend team, contributed in the development of a <strong>collaborative online 
-        network blueprint editor</strong> by translating the design mockups into reusable UI components 
+        `As a member of the frontend team, contributed in the development of a <strong>collaborative online 
+        blueprint editor</strong> by translating the design mockups into reusable UI components 
         with industry-standard UX patterns by using <strong>Angular</strong> with <strong>SCSS</strong>, 
         <strong>NgRx</strong> and <strong>Angular-Material</strong> and adding actions to those by 
         creating services to integrate backend REST-API in a TDD environment.`,
 
         `Resolved more than 50 UI/UX issues by refactoring React components and re-structuring CSS code of an 
-        internal project with the codebase of React.js-Redux.`
+        internal project written in React.js-Redux.`
       ]
     },
     {
@@ -109,7 +109,7 @@ const profileData = {
       desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' href='https://www.venuemonk.com/'> <strong> Venuemonk </strong> </a> (<a target='_blank' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
       date: 'Jan 2018 - Apr 2018',
       details: [
-        `Designed and developed <strong>Venue Onboarding platform</strong> to streamline and automate 
+        `Designed and developed a <strong>Venue Onboarding platform</strong> to streamline and automate 
         the onboarding process of partner venues using <strong>React.js-Redux</strong> frontend and 
         <strong>Node.js-Express, MongoDB</strong> backend. It has a multi-page interactive form to fill 
         out essential information initially, and a dashboard to update the latest data, upload and edit 
@@ -130,7 +130,7 @@ const profileData = {
         `Created a web-app using Node.js-Express with server-side-templating (EJS) on 
         <strong>Hasura's BaaS platform</strong> with features of group-chat and a 
         sketch board for real-time collaboration with peers. The work was more focused 
-        towards <strong>using auth and data APIs</strong> offered by the Hasura, deploying the app, 
+        towards <strong>using auth and data APIs</strong> offered by Hasura, deploying the app, 
         testing and reporting the bugs in the platform.`
       ]
     }
