@@ -7,17 +7,17 @@ setTitle = data => {
   document.querySelector('#profileLogo').style[
     'background-image'
   ] = `url(${data.logoURL})`;
+
   document.querySelector('#profileName').innerHTML = data.name;
-  // document.querySelector('.header-subtitle').innerHTML = data.sub_title;
-  document.querySelector('#aboutIntro').innerHTML = data.about.intro;
+  document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
+  // document.querySelector('#aboutIntro').innerHTML = data.about.intro;
   document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
   document
     .querySelector('#contactEmail')
     .setAttribute('href', `mailto:${data.about.contact.email}`);
-
   document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
-  document.querySelector('#contactAddress').innerHTML =
-    data.about.contact.address;
+  /* document.querySelector('#contactAddress').innerHTML =
+    data.about.contact.address; */
 };
 
 setLinks = links => {
@@ -183,39 +183,49 @@ setSkills = skills => {
 };
 
 setExperience = experiences => {
-  let expList = document.querySelector('#experienceList');
-  experiences.forEach(evt => {
-    let li = document.createElement('li');
+  const expList = document.querySelector('#experienceList');
+  experiences.forEach(exper => {
+    const expListItem = document.createElement('li');
 
-    let achItem = document.createElement('div');
-    achItem.className = 'ach-item';
+    const expItem = document.createElement('div');
+    expItem.className = 'ach-item';
 
-    let achTitle = document.createElement('div');
-    achTitle.className = 'ach-title';
-    achTitle.innerText = evt.desc;
-    achItem.appendChild(achTitle);
+    const expOrg = document.createElement('div');
+    expOrg.className = 'exp-org';
+    expOrg.innerText = exper.organization;
+    expItem.appendChild(expOrg);
 
-    let achDuration = document.createElement('div');
-    achDuration.className = 'ach-duration';
-    achDuration.innerHTML = evt.date;
-    achItem.appendChild(achDuration);
+    const expSub = document.createElement('div');
 
-    li.appendChild(achItem);
+    const expTitle = document.createElement('span');
+    expTitle.className = 'exp-title';
+    expTitle.innerHTML = `${exper.title}, (${exper.date})`;
+    expSub.appendChild(expTitle);
 
-    if (evt.details) {
-      let achDetails = document.createElement('ul');
-      achDetails.className = 'expDet';
+    // const expDura = document.createElement('span');
+    // expDura.className = 'ach-duration';
+    // expDura.innerHTML = exper.date;
+    // expSub.appendChild(expDura);
 
-      evt.details.forEach(dText => {
+    expItem.appendChild(expSub);
+
+    expListItem.appendChild(expItem);
+
+    if (exper.details) {
+      const expDetails = document.createElement('ul');
+      expDetails.className = 'expDet';
+
+      exper.details.forEach(dText => {
         detItem = document.createElement('li');
+        detItem.style.listStyle = 'square';
         detItem.innerHTML = dText;
-        achDetails.appendChild(detItem);
+        expDetails.appendChild(detItem);
       });
 
-      li.appendChild(achDetails);
+      expListItem.appendChild(expDetails);
     }
 
-    expList.appendChild(li);
+    expList.appendChild(expListItem);
   });
 };
 

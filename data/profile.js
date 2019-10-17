@@ -2,10 +2,11 @@ const profileData = {
   title: 'Résumé',
   name: 'Vipin Yadav',
   sub_title: 'Software Engineer',
-  logoURL: '/assets/images/dp.jpg',
+  logoURL: 'assets/images/dp.jpg',
   about: {
-    intro: `I am a innovative and passionate developer with a primary interest in <strong>JavaScript</strong>.
-        Experienced in designing and implementing sophisticated UI/UX with Progressive Web Application standards and application life-cycle management.`,
+    intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
+     and it's applications. Experienced in designing and implementing sophisticated UI/UX with
+      Progressive Web Application standards and application life-cycle managements.`,
     contact: {
       email: 'imvpn22@gmail.com',
       phone: '+91-9919716378',
@@ -13,7 +14,7 @@ const profileData = {
     }
   },
   links: [
-    { title: 'Portfolio', src: 'https://imvpn22.github.io/' },
+    // { title: 'Portfolio', src: 'https://imvpn22.github.io/' },
     { title: 'Github', src: 'https://github.com/imvpn22' },
     { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
     { title: 'LinkedIn', src: 'https://www.linkedin.com/in/imvpn22' },
@@ -43,7 +44,7 @@ const profileData = {
     {
       graph: 'false',
       category: 'Programming Languages',
-      topics: ['C', 'C++', 'JavaScript']
+      topics: ['JavaScript', 'C', 'C++', 'Python']
     },
     {
       graph: 'false',
@@ -53,7 +54,7 @@ const profileData = {
     {
       graph: 'false',
       category: 'Frameworks / Libraries',
-      topics: ['NodeJS', 'Angular', 'ReactJS']
+      topics: ['Angular', 'ReactJS', 'NodeJS']
     }
   ],
   projects: [
@@ -61,46 +62,76 @@ const profileData = {
       title: 'Restaurant Review',
       duration: 'June - Nov 2018',
       link: 'https://github.com/imvpn22/restaurant-review-pwa',
-      desc: `Udacity's 'Mobile Web Specialist Restaurant Reviews App' Project for  MWS Nanodegree`
+      desc: `A web-app to list, view and add reviews of restaurents. 
+      The app includes filtering based on location, cuisine and rating.
+      This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
+      Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
+      with Progressive Web-Application standards including full-responsiveness, 
+      offline support and improved accessibility.`
     },
     {
       title: 'WhiteBoard',
-      duration: 'Jul - Aug 2017',
+      duration: 'Jun - Aug 2017',
       link: 'https://github.com/imvpn22/whiteboard',
-      desc: `A simple web-app for collaborative brainstorming sessions. 
-      The app includes a real-time messaging and sketching platform for collaboration with Peers. 
-      Developed using Node.js, Express, Socket.io and vanilla JS.`
+      desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>. 
+      The app includes a real-time messaging and sketching platform for collaboration with Peers.
+      It also has features to create groups(teams) and add/remove members.
+      Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS), 
+      <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`
     },
     {
-      title: 'Jnanagni 2017',
+      title: `JNANAGNI'17`,
       duration: 'Jan - Mar 2017',
       link: 'https://github.com/methusael13/jnanagni17',
-      desc: `Official website for Jnanagni 2017 - FET, GKV's Annual Techfest`
+      desc: `Official website for Jnanagni 2017 - FET, GKV's Annual Techfest. Developed in Laravel5 `
     }
   ],
   experiences: [
     {
-      desc: `<strong>Project Engineer</strong> at  <a target='_blank' href='https://www.wipro.com/'> <strong> Wipro </strong> </a>`,
+      organization: 'Wipro',
+      title: `Project Engineer`,
+      desc: `Project Engineer`,
       date: 'Aug 2018 - Present',
       details: [
-        'Working on a project with a tech-stack of Angular, Angular-Material and NodeJS-Express.',
-        'Responsible for implementing reusable UI/UX components and interacting with backend service.'
+        `As a member of frontend team, contributed in the development of a <strong>collaborative online 
+        network blueprint editor</strong> by translating the design mockups into reusable UI components 
+        with elegant UX standards by using <strong>Angular</strong> with <strong>SCSS</strong>, 
+        <strong>NgRx</strong> and <strong>Angular-Material</strong> and adding actions to those by 
+        creating services to integrate backend REST-API in a TDD environment.`,
+
+        `Resolved more than 50 UI/UX issues by refactoring React components and re-structuring CSS code of an 
+        internal project with the codebase of React.js-Redux.`
       ]
     },
     {
+      organization: 'Venuemonk',
+      title: 'Full-Stack Developer Intern',
       desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' href='https://www.venuemonk.com/'> <strong> Venuemonk </strong> </a> (<a target='_blank' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
-      date: 'Jan - Apr 2018',
+      date: 'Jan 2018 - Apr 2018',
       details: [
-        'Responsible for developing a web-application <strong>Venue OnBoarding</strong> from design to implementation.',
-        'Work included developing ReactJS-Redux frontend and integrating it with NodeJS-ExpressJS-MongoDB backend.'
+        `Designed and developed <strong>Venue Onboarding platform</strong> to streamline and automate 
+        the onboarding process of partner venues using <strong>React.js-Redux</strong> frontend and 
+        <strong>Node.js-Express, MongoDB</strong> backend. It has a multi-page interactive form to fill 
+        out essential information initially, and a dashboard to update the latest data, upload and edit 
+        images, control public view and show statistics for a venue.`,
+
+        `Modified the <strong>content management system</strong> by re-structuring legacy server-side template 
+        (Dust.js) code into client-side using <strong>React.js</strong>, <strong>Redux</strong> and 
+        <strong>React-Bootstrap</strong>.`
       ]
     },
     {
-      desc: `<strong>Product development intern</strong> at <a target='_blank' href='https://hasura.io/'> <strong> Hasura </strong> </a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7UmlrUDlsMkVwajg/view?usp=sharing'> https://goo.gl/8V3jBy</a>)`,
-      date: 'May - Aug 2017',
+      organization: 'Hasura',
+      title: 'Product Development Intern (Remote)',
+      desc: `<strong>Product development intern</strong> at <a target='_blank' href='https://hasura.io/'> 
+      <strong> Hasura </strong> </a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7UmlrUDlsMkVwajg/view?usp=sharing'> https://goo.gl/8V3jBy</a>)`,
+      date: 'Jun 2017 - Aug 2017',
       details: [
-        'Responsible for developing web-application using Hasura platform APIs.',
-        'Work included designing and implementing frontend application in HTML5-CSS3-JavaScript.'
+        `Created a web-app using Node.js-Express with server-side-templating (EJS) on 
+        <strong>Hasura's BaaS platform</strong> with features of group-chat and a 
+        sketch board for real-time collaboration with peers. The work was more focused 
+        towards <strong>using auth and data APIs</strong> offered by the Hasura, deploying the app, 
+        testing and reporting the bugs in the platform.`
       ]
     }
   ],
@@ -109,16 +140,29 @@ const profileData = {
       title: 'certifications',
       body: [
         {
-          desc: `<strong>Mobile Web Specialist</strong>, a Nanodegree provided by <a target='_blank' href='https://in.udacity.com//'> <strong>Udacity</strong>  (<a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'> https://goo.gl/RGRzVn</a>)`,
+          desc: `<strong>Mobile Web Specialist Nanodegree</strong>, certified by <strong>Udacity</strong>. (View Certificate: <a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
           date: 'May - Nov 2018'
         },
         {
-          desc: `<a target='_blank' href='https://www.imad.tech'><strong>IMAD</strong></a>, a MOOC provided by <a target='_blank' href='https://onlinecourses.nptel.ac.in/'> <strong>NPTEL</strong> </a> and <a target='_blank' href='https://hasura.io/'> <strong> Hasura</strong> </a> (<a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'> https://goo.gl/X3HEdR</a>)`,
+          desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC certified by <em> NPTEL (IIT Madras) and Hasura </em>. Ranked at <strong> top ten percentile </strong> among more than 2300 certified candidates. (View Certificate: <a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'> https://goo.gl/X3HEdR</a>)`,
           date: 'Jan - Mar 2017'
+        }
+      ]
+    },
+    {
+      title: 'Workshops',
+      body: [
+        {
+          desc: `<strong>Emerging Trends in Computer Science</strong>, summer training program with <strong>MNNIT </strong> Allahabad (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7WEVmdlJDcWVZcEE/view?usp=sharing'>Certificate link</a>)`,
+          date: 'Jun - July 2016'
         },
         {
-          desc: `<strong>ETCS</strong>, a Summer Training provided by <a href='http://www.mnnit.ac.in/' target='_blank'> <strong>MNNIT </strong> Allahabad</a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7WEVmdlJDcWVZcEE/view?usp=sharing'>Certificate link</a>)`,
-          date: 'Jun - July 2016'
+          desc: `<strong>Bluemix Enablment</strong> with <strong> IBM </strong> at FET, GKV`,
+          date: 'Mar 2015'
+        },
+        {
+          desc: `<strong>Web Essentials</strong> with KnowWorkshops and CSI Haridwar chapter at FET, GKV`,
+          date: 'Feb 2015'
         }
       ]
     },
