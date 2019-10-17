@@ -318,12 +318,15 @@ a {
 }
 
 .ach-title {
-  font-size: 1rem;
+  font-size: 0.9rem;
+  width: 75%;
 }
 
 .ach-duration {
   color: #777;
   font-style: italic;
+  width: 15%;
+  text-align: right;
 }
 
 .expDet {

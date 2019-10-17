@@ -14,7 +14,7 @@ const profileData = {
     }
   },
   links: [
-    { title: 'Portfolio', src: 'https://imvpn22.github.io/' },
+    // { title: 'Portfolio', src: 'https://imvpn22.github.io/' },
     { title: 'Github', src: 'https://github.com/imvpn22' },
     { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
     { title: 'LinkedIn', src: 'https://www.linkedin.com/in/imvpn22' },
@@ -62,17 +62,28 @@ const profileData = {
       title: 'Restaurant Review',
       duration: 'June - Nov 2018',
       link: 'https://github.com/imvpn22/restaurant-review-pwa',
-      desc: `A frontend web application to list and view restaurents based on location. 
-      Developed using HTML5, CSS3 and vanilla JavaScript with Progressive Web-Application Standards 
-      including Full Responsiveness, Offline Support and Accessibility.`
+      desc: `A web-app to list, view and add reviews of restaurents. 
+      The app includes filtering based on location, cuisine and rating.
+      This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
+      Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
+      with Progressive Web-Application standards including full-responsiveness, 
+      offline support and improved accessibility.`
     },
     {
       title: 'WhiteBoard',
-      duration: 'Jul - Aug 2017',
+      duration: 'Jun - Aug 2017',
       link: 'https://github.com/imvpn22/whiteboard',
-      desc: `A simple web-app for collaborative brainstorming sessions. 
-      The app includes a real-time messaging and sketching platform for collaboration with Peers. 
-      Developed using Node.js, Express, Socket.io and vanilla JS.`
+      desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>. 
+      The app includes a real-time messaging and sketching platform for collaboration with Peers.
+      It also has features to create groups(teams) and add/remove members.
+      Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS), 
+      <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`
+    },
+    {
+      title: `JNANAGNI'17`,
+      duration: 'Jan - Mar 2017',
+      link: 'https://github.com/methusael13/jnanagni17',
+      desc: `Official website for Jnanagni 2017 - FET, GKV's Annual Techfest. Developed in Laravel5 `
     }
   ],
   experiences: [
@@ -129,11 +140,11 @@ const profileData = {
       title: 'certifications',
       body: [
         {
-          desc: `<strong>Mobile Web Specialist Nanodegree</strong>, certified by <a target='_blank' href='https://in.udacity.com//'> <strong>Udacity</strong>  (<a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'> https://goo.gl/RGRzVn</a>)`,
+          desc: `<strong>Mobile Web Specialist Nanodegree</strong>, certified by <strong>Udacity</strong>. (View Certificate: <a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
           date: 'May - Nov 2018'
         },
         {
-          desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC certified by <em> NPTEL (IIT Madras) and Hasura </em>. Ranked at <strong> top ten percentile </strong> (<a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'> https://goo.gl/X3HEdR</a>)`,
+          desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC certified by <em> NPTEL (IIT Madras) and Hasura </em>. Ranked at <strong> top ten percentile </strong> among more than 2300 certified candidates. (View Certificate: <a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'> https://goo.gl/X3HEdR</a>)`,
           date: 'Jan - Mar 2017'
         }
       ]
