@@ -25,19 +25,19 @@ const profileData = {
       alma: 'FET, GKV, Haridwar',
       duration: '2014 - 2018',
       std: 'Bachelor of Technology (Computer Science & Engineering)',
-      score: '71%'
+      score: '71.00%'
     },
     {
       alma: 'Jwala Devi SVMIC, Prayagraj',
       duration: '2011 - 2013',
       std: 'Class XI - XII (PCM)',
-      score: '90%'
+      score: '89.80%'
     },
     {
       alma: 'Jwala Devi SVMIC, Prayagraj',
       duration: '2011 - 2013',
       std: 'Class XI - XII (PCM)',
-      score: '73%'
+      score: '73.33%'
     }
   ],
   skills: [
@@ -95,7 +95,7 @@ const profileData = {
       details: [
         `As a member of frontend team, contributed in the development of a <strong>collaborative online 
         network blueprint editor</strong> by translating the design mockups into reusable UI components 
-        with elegant UX standards by using <strong>Angular</strong> with <strong>SCSS</strong>, 
+        with industry-standard UX patterns by using <strong>Angular</strong> with <strong>SCSS</strong>, 
         <strong>NgRx</strong> and <strong>Angular-Material</strong> and adding actions to those by 
         creating services to integrate backend REST-API in a TDD environment.`,
 
