@@ -44,7 +44,7 @@ const profileData = {
     {
       graph: 'false',
       category: 'Programming Languages',
-      topics: ['C', 'C++', 'JavaScript']
+      topics: ['JavaScript', 'C', 'C++', 'Python']
     },
     {
       graph: 'false',
@@ -54,7 +54,7 @@ const profileData = {
     {
       graph: 'false',
       category: 'Frameworks / Libraries',
-      topics: ['NodeJS', 'Angular', 'ReactJS']
+      topics: ['Angular', 'ReactJS', 'NodeJS']
     }
   ],
   projects: [
@@ -88,8 +88,8 @@ const profileData = {
         <strong>NgRx</strong> and <strong>Angular-Material</strong> and adding actions to those by 
         creating services to integrate backend REST-API in a TDD environment.`,
 
-        `Resolved more than 50 UI/UX issues by refactoring components and re-structuring CSS of an 
-        internal project with the codebase of React.js-Redux, within a month.`
+        `Resolved more than 50 UI/UX issues by refactoring React components and re-structuring CSS code of an 
+        internal project with the codebase of React.js-Redux.`
       ]
     },
     {
@@ -98,16 +98,29 @@ const profileData = {
       desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' href='https://www.venuemonk.com/'> <strong> Venuemonk </strong> </a> (<a target='_blank' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
       date: 'Jan 2018 - Apr 2018',
       details: [
-        `Designed and developed <strong>Venue Onboarding platform</strong>, to streamline the onboarding process of new partner venues. It has a multi-page interactive form to fill the essential information of a venue, upload edit and tag images, showcasing the public view of the venue. It had a dashboard to view and update the venue data for partner use. It was developed using React.js, Redux and React-Bootstrap in frontend with Node.js, Express.js and MongoDB backend. `
+        `Designed and developed <strong>Venue Onboarding platform</strong> to streamline and automate 
+        the onboarding process of partner venues using <strong>React.js-Redux</strong> frontend and 
+        <strong>Node.js-Express, MongoDB</strong> backend. It has a multi-page interactive form to fill 
+        out essential information initially, and a dashboard to update the latest data, upload and edit 
+        images, control public view and show statistics for a venue.`,
+
+        `Modified the <strong>content management system</strong> by re-structuring legacy server-side template 
+        (Dust.js) code into client-side using <strong>React.js</strong>, <strong>Redux</strong> and 
+        <strong>React-Bootstrap</strong>.`
       ]
     },
     {
       organization: 'Hasura',
       title: 'Product Development Intern (Remote)',
-      desc: `<strong>Product development intern</strong> at <a target='_blank' href='https://hasura.io/'> <strong> Hasura </strong> </a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7UmlrUDlsMkVwajg/view?usp=sharing'> https://goo.gl/8V3jBy</a>)`,
+      desc: `<strong>Product development intern</strong> at <a target='_blank' href='https://hasura.io/'> 
+      <strong> Hasura </strong> </a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7UmlrUDlsMkVwajg/view?usp=sharing'> https://goo.gl/8V3jBy</a>)`,
       date: 'Jun 2017 - Aug 2017',
       details: [
-        `Created a Node.js-Express app with server-side-templating as a microservice using Hasura BaaS platform.`
+        `Created a web-app using Node.js-Express with server-side-templating (EJS) on 
+        <strong>Hasura's BaaS platform</strong> with features of group-chat and a 
+        sketch board for real-time collaboration with peers. The work was more focused 
+        towards <strong>using auth and data APIs</strong> offered by the Hasura, deploying the app, 
+        testing and reporting the bugs in the platform.`
       ]
     }
   ],
