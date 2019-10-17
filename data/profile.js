@@ -1,7 +1,7 @@
 const profileData = {
   title: 'Résumé',
   name: 'Vipin Yadav',
-  sub_title: 'Javascript Developer',
+  sub_title: 'Software Engineer',
   logoURL: 'assets/images/dp.jpg',
   about: {
     intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
@@ -82,16 +82,14 @@ const profileData = {
       desc: `Project Engineer`,
       date: 'Aug 2018 - Present',
       details: [
-        `Developed a <strong>collaborative online network blueprint editor</strong> TOSCA, for use in 
-        designing flexible network topologies and generating a YAML (or YANG) configuration file as a result. 
-        This helps Network Engineers to reduce the time taken for design and test a network topology from months to weeks. <br>
-        My responsibility includes translating the design specification into reusable 
-        UI components with sophisticated UX standards, using <strong>Angular</strong> with <strong>SCSS</strong>,
-        <strong>NgRx</strong> and <strong>Angular-Material</strong> components and adding actions to those with 
-        the communication of backend REST-API services.`,
+        `As a member of frontend team, contributed in the development of a <strong>collaborative online 
+        network blueprint editor</strong> by translating the design mockups into reusable UI components 
+        with elegant UX standards by using <strong>Angular</strong> with <strong>SCSS</strong>, 
+        <strong>NgRx</strong> and <strong>Angular-Material</strong> and adding actions to those by 
+        creating services to integrate backend REST-API in a TDD environment.`,
 
-        `Provided production support for an internal project in React.js, Redux and CSS3,
-        <strong>resolved more than 100 UI/UX issues</strong> coming after QA testing.`
+        `Resolved more than 50 UI/UX issues by refactoring components and re-structuring CSS of an 
+        internal project with the codebase of React.js-Redux, within a month.`
       ]
     },
     {
@@ -100,18 +98,16 @@ const profileData = {
       desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' href='https://www.venuemonk.com/'> <strong> Venuemonk </strong> </a> (<a target='_blank' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
       date: 'Jan 2018 - Apr 2018',
       details: [
-        'Responsible for developing a web-application <strong>Venue OnBoarding</strong> from design to implementation.',
-        'Work included developing ReactJS-Redux frontend and integrating it with NodeJS-ExpressJS-MongoDB backend.'
+        `Designed and developed <strong>Venue Onboarding platform</strong>, to streamline the onboarding process of new partner venues. It has a multi-page interactive form to fill the essential information of a venue, upload edit and tag images, showcasing the public view of the venue. It had a dashboard to view and update the venue data for partner use. It was developed using React.js, Redux and React-Bootstrap in frontend with Node.js, Express.js and MongoDB backend. `
       ]
     },
     {
       organization: 'Hasura',
-      title: 'Product Development Intern',
+      title: 'Product Development Intern (Remote)',
       desc: `<strong>Product development intern</strong> at <a target='_blank' href='https://hasura.io/'> <strong> Hasura </strong> </a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7UmlrUDlsMkVwajg/view?usp=sharing'> https://goo.gl/8V3jBy</a>)`,
-      date: 'May 2017 - Aug 2017',
+      date: 'Jun 2017 - Aug 2017',
       details: [
-        'Responsible for developing web-application using Hasura platform APIs.',
-        'Work included designing and implementing frontend application in HTML5-CSS3-JavaScript.'
+        `Created a Node.js-Express app with server-side-templating as a microservice using Hasura BaaS platform.`
       ]
     }
   ],
