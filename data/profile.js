@@ -1,7 +1,7 @@
 const profileData = {
   title: 'Résumé',
   name: 'Vipin Yadav',
-  sub_title: 'Software Engineer',
+  sub_title: 'Frontend Developer',
   logoURL: 'assets/images/dp.jpg',
   about: {
     intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
@@ -16,9 +16,9 @@ const profileData = {
   links: [
     // { title: 'Portfolio', src: 'https://imvpn22.github.io/' },
     { title: 'Github', src: 'https://github.com/imvpn22' },
-    { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
     { title: 'LinkedIn', src: 'https://www.linkedin.com/in/imvpn22' },
-    { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
+    { title: 'Twitter', src: 'https://twitter.com/iam_vipinn' },
+    { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' }
   ],
   education: [
     {

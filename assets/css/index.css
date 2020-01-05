@@ -4,7 +4,7 @@ html {
   height: 100%;
   margin: 0 auto;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
+  font-size: 100%;
   color: #222;
   background-color: #fff;
 }
@@ -48,7 +48,7 @@ strong {
 .profile-logo {
   width: 100px;
   height: 100px;
-  background-image: url('assets/images/avatar.jpg');
+  background-image: url('/assets/images/avatar.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -70,8 +70,8 @@ strong {
 }
 
 .header-sub-title {
-  font-size: 0.8rem;
-  font-weight: 100;
+  font-size: 0.9rem;
+  font-weight: 400;
   color: #999;
   letter-spacing: 1px;
   text-align: right;
@@ -342,7 +342,7 @@ strong {
   font-size: 0.9rem;
 }
 
-.expDet > li {
+.expDet>li {
   padding: 0.3rem 0 !important;
   padding-left: 0.3rem !important;
 }
