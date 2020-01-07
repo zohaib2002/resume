@@ -44,17 +44,17 @@ const profileData = {
     {
       graph: 'false',
       category: 'Programming Languages',
-      topics: ['JavaScript', 'C', 'C++', 'Python']
+      topics: ['C', 'C++', 'JavaScript', 'TypeScript']
     },
     {
       graph: 'false',
       category: 'Databases',
-      topics: ['MongoDB', 'PostgreSQL', 'Oracle PL/SQL']
+      topics: ['MongoDB', 'PostgreSQL', 'PL/SQL']
     },
     {
       graph: 'false',
       category: 'Frameworks / Libraries',
-      topics: ['Angular', 'ReactJS', 'NodeJS']
+      topics: ['NodeJS', 'ReactJS', 'Angular', 'Jasmine']
     }
   ],
   projects: [
@@ -93,14 +93,14 @@ const profileData = {
       desc: `Project Engineer`,
       date: 'Aug 2018 - Present',
       details: [
-        `As a member of the frontend team, contributed in the development of a <strong>collaborative online 
+        `Contributed in the development of a <strong>collaborative online 
         blueprint editor</strong> by translating the design mockups into reusable UI components 
         with industry-standard UX patterns by using <strong>Angular</strong> with <strong>SCSS</strong>, 
         <strong>NgRx</strong> and <strong>Angular-Material</strong> and adding actions to those by 
-        creating services to integrate backend REST-API in a TDD environment.`,
+        creating services to integrate backend REST-APIs.`,
 
-        `Resolved more than 50 UI/UX issues by refactoring React components and re-structuring CSS code of an 
-        internal project written in React.js-Redux.`
+        `Resolved more than 50 UI/UX issues by refactoring React components and re-structuring CSS/SCSS of an 
+        internal project with codebase of ReactJS-Redux.`
       ]
     },
     {
