@@ -1,5 +1,5 @@
 const profileData = {
-  title: 'Résumé',
+  title: 'Resume',
   name: 'Vipin Yadav',
   sub_title: 'Frontend Developer',
   logoURL: 'assets/images/dp.jpg',

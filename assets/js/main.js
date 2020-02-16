@@ -9,7 +9,7 @@ setTitle = data => {
   ] = `url(${data.logoURL})`;
 
   document.querySelector('#profileName').innerHTML = data.name;
-  // document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
+  document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
   // document.querySelector('#aboutIntro').innerHTML = data.about.intro;
   document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
   document
@@ -21,17 +21,17 @@ setTitle = data => {
 };
 
 setLinks = links => {
-  let linksList = document.querySelector('#linksList');
+  const linksList = document.querySelector('#linksList');
   links.forEach(link => {
-    let li = document.createElement('li');
-    let title = document.createElement('div');
+    const li = document.createElement('li');
+    const title = document.createElement('div');
     title.className = 'link-title';
     title.innerHTML = link.title;
     li.appendChild(title);
 
-    let linkSrc = document.createElement('div');
+    const linkSrc = document.createElement('div');
     linkSrc.className = 'link-src';
-    let a = document.createElement('a');
+    const a = document.createElement('a');
     a.href = link.src;
     a.target = '_blank';
     a.innerHTML = link.src;
@@ -43,34 +43,34 @@ setLinks = links => {
 };
 
 setEducation = education => {
-  let ul = document.querySelector('#educationList');
+  const ul = document.querySelector('#educationList');
   education.forEach(edu => {
-    let li = document.createElement('li');
+    const li = document.createElement('li');
 
-    let eduHeader = document.createElement('div');
+    const eduHeader = document.createElement('div');
     eduHeader.className = 'edu-header';
 
-    let eduAlma = document.createElement('span');
+    const eduAlma = document.createElement('span');
     eduAlma.className = 'edu-alma';
     eduAlma.innerHTML = edu.alma;
     eduHeader.appendChild(eduAlma);
 
-    let eduDuration = document.createElement('span');
+    const eduDuration = document.createElement('span');
     eduDuration.className = 'edu-duration';
     eduDuration.innerHTML = edu.duration;
     eduHeader.appendChild(eduDuration);
 
     li.appendChild(eduHeader);
 
-    let eduClassData = document.createElement('div');
+    const eduClassData = document.createElement('div');
     eduClassData.className = 'edu-class-data';
 
-    let eduStd = document.createElement('span');
+    const eduStd = document.createElement('span');
     eduStd.className = 'edu-std';
     eduStd.innerHTML = edu.std;
     eduClassData.appendChild(eduStd);
 
-    let eduScore = document.createElement('span');
+    const eduScore = document.createElement('span');
     eduScore.className = 'edu-score';
     eduScore.innerHTML = edu.score;
     eduClassData.appendChild(eduScore);
@@ -82,19 +82,19 @@ setEducation = education => {
 };
 
 setProjects = projects => {
-  let ul = document.querySelector('#projectList');
+  const ul = document.querySelector('#projectList');
   projects.forEach(project => {
-    let li = document.createElement('li');
+    const li = document.createElement('li');
 
-    let projectHeader = document.createElement('div');
+    const projectHeader = document.createElement('div');
     projectHeader.className = 'project-header';
 
-    let projectTitle = document.createElement('span');
+    const projectTitle = document.createElement('span');
     projectTitle.className = 'project-title';
     projectTitle.innerHTML = project.title;
     projectHeader.appendChild(projectTitle);
 
-    let projectDuration = document.createElement('span');
+    const projectDuration = document.createElement('span');
     projectDuration.className = 'project-duration';
     projectDuration.innerHTML = project.duration;
     projectHeader.appendChild(projectDuration);
@@ -102,10 +102,10 @@ setProjects = projects => {
     li.appendChild(projectHeader);
 
     if (!!project.link) {
-      let projectLink = document.createElement('span');
+      const projectLink = document.createElement('span');
       projectLink.className = 'project-link';
 
-      let a = document.createElement('a');
+      const a = document.createElement('a');
       a.href = project.link;
       a.target = '_blank';
       a.innerHTML = `${project.link}`;
@@ -114,7 +114,7 @@ setProjects = projects => {
       li.appendChild(projectLink);
     }
 
-    let projectDesc = document.createElement('div');
+    const projectDesc = document.createElement('div');
     projectDesc.className = 'project-desc';
     projectDesc.innerHTML = project.desc;
 
@@ -125,7 +125,7 @@ setProjects = projects => {
 };
 
 setSkills = skills => {
-  let skillList = document.querySelector('#skillList');
+  const skillList = document.querySelector('#skillList');
   skills.forEach(skill => {
     let type_klass = 'cat-skill-type';
     let body_klass = 'cat-skill-body';
@@ -135,30 +135,30 @@ setSkills = skills => {
       body_klass += '-gen';
     }
 
-    let catSkillItem = document.createElement('li');
+    const catSkillItem = document.createElement('li');
     catSkillItem.className = 'cat-skill-item';
 
-    let catSkillType = document.createElement('div');
+    const catSkillType = document.createElement('div');
     catSkillType.className = type_klass;
     catSkillType.innerHTML = skill.category;
     catSkillItem.appendChild(catSkillType);
 
-    let catSkillBody = document.createElement('div');
+    const catSkillBody = document.createElement('div');
     catSkillBody.className = body_klass;
 
     if (skill.graph == 'true') {
       skill.topics.forEach(topic => {
-        let skillGen = document.createElement('div');
+        const skillGen = document.createElement('div');
         skillGen.className = 'skill-gen';
 
-        let skillTitle = document.createElement('div');
+        const skillTitle = document.createElement('div');
         skillTitle.className = 'skill-title';
         skillTitle.innerHTML = topic;
         skillGen.appendChild(skillTitle);
 
-        let skillProgressTrack = document.createElement('div');
+        const skillProgressTrack = document.createElement('div');
         skillProgressTrack.className = 'skill-progress-track';
-        let skillProgress = document.createElement('div');
+        const skillProgress = document.createElement('div');
         skillProgress.className = 'skill-progress';
         skillProgress.style = `width: ${topic.perc}`;
         skillProgressTrack.appendChild(skillProgress);
@@ -169,7 +169,7 @@ setSkills = skills => {
       });
     } else {
       skill.topics.forEach(topic => {
-        let skillGen = document.createElement('div');
+        const skillGen = document.createElement('div');
         skillGen.className = 'skill-gen';
         skillGen.innerHTML = topic;
         catSkillBody.appendChild(skillGen);
@@ -230,28 +230,28 @@ setExperience = experiences => {
 };
 
 setEvents = events => {
-  let footer = document.querySelector('.footer');
+  const footer = document.querySelector('.footer');
   events.forEach(event => {
-    let eventTitle = setCatagoryHeader(event.title);
+    const eventTitle = setCatagoryHeader(event.title);
     footer.appendChild(eventTitle);
 
-    let eventBody = document.createElement('div');
+    const eventBody = document.createElement('div');
     eventBody.className = 'cat-list-body';
 
-    let ul = document.createElement('ul');
+    const ul = document.createElement('ul');
 
     event.body.forEach(evt => {
-      let li = document.createElement('li');
+      const li = document.createElement('li');
 
-      let achItem = document.createElement('div');
+      const achItem = document.createElement('div');
       achItem.className = 'ach-item';
 
-      let achTitle = document.createElement('div');
+      const achTitle = document.createElement('div');
       achTitle.className = 'ach-title';
       achTitle.innerText = evt.desc;
       achItem.appendChild(achTitle);
 
-      let achDuration = document.createElement('div');
+      const achDuration = document.createElement('div');
       achDuration.className = 'ach-duration';
       achDuration.innerHTML = evt.date;
       achItem.appendChild(achDuration);
@@ -266,19 +266,19 @@ setEvents = events => {
 };
 
 setCatagoryHeader = title => {
-  let catHeader = document.createElement('div');
+  const catHeader = document.createElement('div');
   catHeader.className = 'cat-header';
 
-  let catIndicator = document.createElement('span');
+  const catIndicator = document.createElement('span');
   catIndicator.className = 'cat-indicator';
 
-  let i = document.createElement('i');
+  const i = document.createElement('i');
   i.className = 'fa fa-chevron-right';
   i['area-hidden'] = 'true';
   catIndicator.appendChild(i);
   catHeader.appendChild(catIndicator);
 
-  let catTitle = document.createElement('span');
+  const catTitle = document.createElement('span');
   catTitle.className = 'cat-title';
   catTitle.innerHTML = title;
   catHeader.appendChild(catTitle);
@@ -287,7 +287,7 @@ setCatagoryHeader = title => {
 };
 
 correctHTML = () => {
-  let desc = document.getElementsByClassName('ach-title');
+  const desc = document.getElementsByClassName('ach-title');
   for (let i = 0; i < desc.length; i++) {
     desc[i].innerHTML = desc[i].innerText;
   }
@@ -296,7 +296,7 @@ correctHTML = () => {
     'load',
     () => {
       // Extra padding for last skill item
-      /*let skillItems = document.querySelectorAll(".footer > .cat-skill-item");
+      /*const skillItems = document.querySelectorAll(".footer > .cat-skill-item");
         if (skillItems) {
             skillItems[skillItems.length - 1].classList.add("pad-bottom-extra");
         }*/
