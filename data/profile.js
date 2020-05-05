@@ -18,7 +18,7 @@ const profileData = {
     { title: 'Github', src: 'https://github.com/imvpn22' },
     { title: 'LinkedIn', src: 'https://www.linkedin.com/in/imvpn22' },
     { title: 'Twitter', src: 'https://twitter.com/iam_vipinn' },
-    { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' }
+    // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' }
   ],
   education: [
     {
@@ -44,7 +44,7 @@ const profileData = {
     {
       graph: 'false',
       category: 'Programming Languages',
-      topics: ['C', 'C++', 'JavaScript', 'TypeScript']
+      topics: ['JavaScript', 'TypeScript', 'C', 'C++', 'Python']
     },
     {
       graph: 'false',

@@ -1,12 +1,9 @@
 body,
 html {
-  /* width: 100%;
-  height: 100%; */
   margin: 0 auto;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 100%;
   color: #222;
-  background-color: #fff;
 }
 
 * {
@@ -25,12 +22,13 @@ strong {
 
 .container {
   padding: 10px 15px;
-  margin: 10px auto;
-  width: 55rem;
+  margin: 0 auto;
+  /* width: 55rem; */
+  max-width: 55rem;
+  background-color: #fff;
 }
 
 .link-title {
-  font-size: 1rem;
   letter-spacing: 1px;
   font-weight: 600;
   color: #444;
@@ -41,6 +39,7 @@ strong {
   justify-content: space-between;
   align-items: center;
   /* padding: 1rem; */
+  flex-wrap: wrap;
 }
 
 .profile-logo {
@@ -53,11 +52,6 @@ strong {
   border-radius: 50%;
 }
 
-.header-title-section {
-  /* padding: .5rem 0; */
-  flex: 1;
-}
-
 .header-title {
   font-family: 'Source Sans Pro';
   font-size: 2.4rem;
@@ -68,7 +62,6 @@ strong {
 }
 
 .header-sub-title {
-  font-size: 0.9rem;
   font-weight: 400;
   color: #999;
   letter-spacing: 1px;
@@ -77,20 +70,18 @@ strong {
 }
 
 .contact-section {
-  padding: 0.5rem 0;
-  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
   color: #3173bb;
-  padding: 0.5rem 0;
+  padding: 0.4rem 0;
 }
 
 .contact-logo {
   color: #3173bb;
-  /* font-size: 1rem; */
 }
 
 .contact-info {
@@ -101,27 +92,26 @@ strong {
   padding: 1rem 0 0 0;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .info-left {
-  flex: 4;
+  flex: 1;
   border-right: 2px solid #f5f5f5;
   padding-right: 1rem;
 }
 
 .info-right {
-  flex: 8;
+  flex: 3;
   padding-left: 1rem;
 }
 
 .info-row {
-  /* display: flex; */
-  /* flex-direction: column; */
   width: 100%;
 }
 
 .cat-header {
-  padding: 0.4rem 0;
+  padding: 0.5rem 0;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
@@ -135,7 +125,7 @@ strong {
 .cat-title {
   font-family: 'Source Sans Pro';
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   vertical-align: text-bottom;
   padding-left: 1rem;
   color: #666;
@@ -147,10 +137,6 @@ strong {
 }
 
 /* Lists */
-.cat-list-body {
-  padding: 0.3rem 0 1rem 0;
-}
-
 .cat-list-body ul {
   padding-left: 18px;
   margin: 0;
@@ -158,12 +144,13 @@ strong {
 }
 
 .cat-list-body li {
-  padding: 0.6rem 0;
+  padding: 0.4rem 0;
   padding-left: 0.6rem;
 }
 
 /* Education */
-.edu-header {
+.edu-header,
+.project-header {
   display: flex;
   justify-content: space-between;
 }
@@ -205,7 +192,6 @@ strong {
 .cat-contact-body,
 .cat-skill-body {
   font-family: 'Source Sans Pro';
-  font-size: 0.9rem;
 }
 
 /* Project */
@@ -219,7 +205,6 @@ strong {
   padding: 4px 0 4px 16px;
   border-left: 2px solid beige;
   font-style: italic;
-  font-size: 0.9rem;
 }
 
 /* Skills */
@@ -230,25 +215,16 @@ strong {
 
 .cat-skill-type {
   /* width: 100%; */
-  min-width: 13.5rem;
+  /* min-width: 13.5rem; */
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
   padding: 5px 0;
-  padding-right: 1rem;
 }
 
 .force-inline {
   display: inline-block !important;
 }
-
-/* .cat-skill-type:before {
-  content: "\25c6";
-  margin-top: -0.1rem;
-  position: absolute;
-  margin-left: -1.5rem;
-  color: #3173bb;
-} */
 
 .cat-skill-body {
   display: flex;
@@ -258,7 +234,8 @@ strong {
 }
 
 .cat-skill-body-gen {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .skill {
@@ -268,17 +245,14 @@ strong {
 
 .skill-gen {
   display: inline;
-  padding: 3px 10px;
-  margin: 0 5px;
-  background-color: #222;
-  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 3px 6px;
+  margin-left: 0;
+  background-color: #3173bb;
   color: #fff;
+  border-radius: 3rem;
   font-family: 'Source Sans Pro';
-}
-
-.skill-title,
-.skill-gen {
-  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .skill-progress-track {
@@ -306,7 +280,6 @@ strong {
 }
 
 .exp-org {
-  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: #444;
@@ -314,11 +287,9 @@ strong {
 
 .exp-title {
   color: #666;
-  font-style: italic;
 }
 
 .ach-title {
-  font-size: 0.9rem;
   width: 75%;
   color: #444;
 }
@@ -335,28 +306,75 @@ strong {
   color: #444;
   padding: 4px 0 4px 16px;
   font-style: italic;
-  font-size: 0.9rem;
 }
 
-.expDet > li {
+.expDet>li {
   padding: 0.3rem 0 !important;
   padding-left: 0.3rem !important;
 }
 
 /* Media wuery for mobile view */
 @media screen and (max-width: 500px) {
+  .profile-logo {
+    margin: 0 auto;
+  }
+
+  .header-title-section {
+    width: 100%;
+  }
+
   .header-title {
-    flex-wrap: wrap;
-    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    text-align: center;
   }
 
   .header-title .profile-contact {
     text-align: left;
-    font-size: 0.9rem;
   }
 
-  .header-subtitle {
-    justify-content: center;
+  .header-sub-title {
+    /* justify-content: center; */
+    text-align: center;
+  }
+
+  .link-title {
+    padding-bottom: 3px;
+    font-weight: 500;
+  }
+
+  .cat-title {
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+
+  .info-section .info-left {
+    border: none;
+  }
+
+  .info-section .info-right {
+    padding: 0;
+  }
+
+  .ach-item {
+    flex-direction: column;
+  }
+
+  .ach-item .ach-title {
+    width: auto;
+  }
+
+  .ach-item .ach-duration {
+    width: auto;
+    text-align: left;
+  }
+
+  .edu-header {
+    flex-direction: column;
+  }
+
+  .edu-score {
+    margin-left: 0;
   }
 
   .contact-item {
@@ -379,11 +397,6 @@ strong {
     padding: 2px 0 10px 0px;
   }
 
-  .cat-list-body li {
-    padding: 5px 0;
-    padding-left: 5px;
-  }
-
   .cat-skill-body-gen {
     display: flex;
     flex-wrap: wrap;
@@ -391,23 +404,12 @@ strong {
     justify-content: space-between;
   }
 
-  .skill-gen {
-    /* display: inline; */
-    padding: 5px 15px;
-    margin: 3px;
-    border-radius: 54px;
-    color: #333;
-    font-weight: 600;
-    font-family: 'Source Sans Pro';
-    background: #ddd;
+  .project-link a {
+    word-wrap: break-word;
   }
 
   .project-desc {
-    /* margin-top: 8px; */
     color: #444;
     padding: 4px 0;
-    /* border-left: 2px solid #ddd; */
-    /* font-style: italic; */
-    font-size: 0.9rem;
   }
 }

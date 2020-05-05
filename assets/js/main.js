@@ -188,7 +188,7 @@ setExperience = experiences => {
     const expListItem = document.createElement('li');
 
     const expItem = document.createElement('div');
-    expItem.className = 'ach-item';
+    expItem.className = 'exp-item';
 
     const expOrg = document.createElement('div');
     expOrg.className = 'exp-org';
