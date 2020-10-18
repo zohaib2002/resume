@@ -1,13 +1,9 @@
 /* Define all the functions */
 
-setTitle = data => {
+const setTitle = data => {
   // Set page title
   document.title = `${data.title} | ${data.name}`;
-
-  document.querySelector('#profileLogo').style[
-    'background-image'
-  ] = `url(${data.logoURL})`;
-
+  document.querySelector('#profileLogo').src = data.logoURL;
   document.querySelector('#profileName').innerHTML = data.name;
   document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
   // document.querySelector('#aboutIntro').innerHTML = data.about.intro;
@@ -20,7 +16,7 @@ setTitle = data => {
     data.about.contact.address; */
 };
 
-setLinks = links => {
+const setLinks = links => {
   const linksList = document.querySelector('#linksList');
   links.forEach(link => {
     const li = document.createElement('li');
@@ -42,7 +38,7 @@ setLinks = links => {
   });
 };
 
-setEducation = education => {
+const setEducation = education => {
   const ul = document.querySelector('#educationList');
   education.forEach(edu => {
     const li = document.createElement('li');
@@ -81,7 +77,7 @@ setEducation = education => {
   });
 };
 
-setProjects = projects => {
+const setProjects = projects => {
   const ul = document.querySelector('#projectList');
   projects.forEach(project => {
     const li = document.createElement('li');
@@ -124,13 +120,13 @@ setProjects = projects => {
   });
 };
 
-setSkills = skills => {
+const setSkills = skills => {
   const skillList = document.querySelector('#skillList');
   skills.forEach(skill => {
     let type_klass = 'cat-skill-type';
     let body_klass = 'cat-skill-body';
 
-    if (skill.graph == 'false') {
+    if (!skill.graph) {
       type_klass += ' force-inline';
       body_klass += '-gen';
     }
@@ -146,7 +142,7 @@ setSkills = skills => {
     const catSkillBody = document.createElement('div');
     catSkillBody.className = body_klass;
 
-    if (skill.graph == 'true') {
+    if (skill.graph) {
       skill.topics.forEach(topic => {
         const skillGen = document.createElement('div');
         skillGen.className = 'skill-gen';
@@ -182,7 +178,7 @@ setSkills = skills => {
   });
 };
 
-setExperience = experiences => {
+const setExperience = experiences => {
   const expList = document.querySelector('#experienceList');
   experiences.forEach(exper => {
     const expListItem = document.createElement('li');
@@ -216,7 +212,7 @@ setExperience = experiences => {
       expDetails.className = 'expDet';
 
       exper.details.forEach(dText => {
-        detItem = document.createElement('li');
+        const detItem = document.createElement('li');
         detItem.style.listStyle = 'square';
         detItem.innerHTML = dText;
         expDetails.appendChild(detItem);
@@ -229,7 +225,7 @@ setExperience = experiences => {
   });
 };
 
-setEvents = events => {
+const setEvents = events => {
   const footer = document.querySelector('.footer');
   events.forEach(event => {
     const eventTitle = setCatagoryHeader(event.title);
@@ -265,7 +261,7 @@ setEvents = events => {
   });
 };
 
-setCatagoryHeader = title => {
+const setCatagoryHeader = title => {
   const catHeader = document.createElement('div');
   catHeader.className = 'cat-header';
 
@@ -286,7 +282,7 @@ setCatagoryHeader = title => {
   return catHeader;
 };
 
-correctHTML = () => {
+const correctHTML = () => {
   const desc = document.getElementsByClassName('ach-title');
   for (let i = 0; i < desc.length; i++) {
     desc[i].innerHTML = desc[i].innerText;

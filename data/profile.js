@@ -16,9 +16,10 @@ const profileData = {
   links: [
     // { title: 'Portfolio', src: 'https://imvpn22.github.io/' },
     { title: 'Github', src: 'https://github.com/imvpn22' },
+    { title: 'Codepen', src: 'https://codepen.io/imvpn22' },
     { title: 'LinkedIn', src: 'https://www.linkedin.com/in/imvpn22' },
-    { title: 'Twitter', src: 'https://twitter.com/iam_vipinn' },
-    // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' }
+    { title: 'Twitter', src: 'https://twitter.com/iam_vipinn' }
+    // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
   ],
   education: [
     {
@@ -42,19 +43,32 @@ const profileData = {
   ],
   skills: [
     {
-      graph: 'false',
+      graph: false,
       category: 'Programming Languages',
-      topics: ['JavaScript', 'TypeScript', 'C', 'C++', 'Python']
+      topics: ['JavaScript', 'TypeScript', 'C', 'C++', 'Python3']
     },
     {
-      graph: 'false',
+      graph: false,
       category: 'Databases',
       topics: ['MongoDB', 'PostgreSQL', 'PL/SQL']
     },
     {
-      graph: 'false',
+      graph: false,
       category: 'Frameworks / Libraries',
-      topics: ['NodeJS', 'ReactJS', 'Angular', 'Jasmine']
+      topics: [
+        'ReactJS',
+        'Redux',
+        'NodeJS',
+        'Express',
+        'Angular',
+        'Jasmine',
+        'Jest'
+      ]
+    },
+    {
+      graph: false,
+      category: 'Dev-Tools',
+      topics: ['VSCode', 'Postman', 'BloomRPC', 'Google Chrome', 'Jira']
     }
   ],
   projects: [
@@ -88,10 +102,19 @@ const profileData = {
   ],
   experiences: [
     {
+      organization: 'Mobile Premier League',
+      title: `Software Development Engineer 1`,
+      date: 'Apr 2020 - Present',
+      details: [
+        `Workinng on development of internal tools to provide help in operations. Tech stack includes <strong>ReactJS</strong> with <strong>SCSS</strong> and
+        <strong>Redux</strong> for frontend and <strong>NodeJS-Express</strong> for backend.`
+      ]
+    },
+    {
       organization: 'Wipro',
       title: `Project Engineer`,
       desc: `Project Engineer`,
-      date: 'Aug 2018 - Present',
+      date: 'Aug 2018 - Apr 2020',
       details: [
         `Contributed in the development of a <strong>collaborative online 
         blueprint editor</strong> by translating the design mockups into reusable UI components 
@@ -124,7 +147,7 @@ const profileData = {
       organization: 'Hasura',
       title: 'Product Development Intern (Remote)',
       desc: `<strong>Product development intern</strong> at <a target='_blank' href='https://hasura.io/'> 
-      <strong> Hasura </strong> </a> (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7UmlrUDlsMkVwajg/view?usp=sharing'> https://goo.gl/8V3jBy</a>)`,
+      <strong> Hasura </strong> </a> (<a target='_blank' href='https://goo.gl/8V3jBy'> https://goo.gl/8V3jBy</a>)`,
       date: 'Jun 2017 - Aug 2017',
       details: [
         `Created a web-app using Node.js-Express with server-side-templating (EJS) on 
@@ -140,11 +163,11 @@ const profileData = {
       title: 'certifications',
       body: [
         {
-          desc: `<strong>Mobile Web Specialist Nanodegree</strong>, certified by <strong>Udacity</strong>. (View Certificate: <a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
+          desc: `<strong>Mobile Web Specialist Nanodegree</strong>, certified by <strong>Udacity</strong>. (Certificate: <a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
           date: 'May - Nov 2018'
         },
         {
-          desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC certified by <em> NPTEL (IIT Madras) and Hasura </em>. Ranked at <strong> top ten percentile </strong> among more than 2300 certified candidates. (View Certificate: <a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'> https://goo.gl/X3HEdR</a>)`,
+          desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC certified by <em> NPTEL (IIT Madras) and Hasura </em>. Ranked at <strong> top ten percentile </strong> among more than 2300 certified candidates. (Certificate: <a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'> https://goo.gl/X3HEdR</a>)`,
           date: 'Jan - Mar 2017'
         }
       ]

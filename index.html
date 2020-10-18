@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume | John Doe</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 </head>
 
 <body>
   <div class="container">
     <section class="header">
-      <img class="profile-logo" id="profileLogo" />
+      <img class="profile-logo" id="profileLogo" alt="profile image" src="assets/images/avatar.jpg" />
       <div class="header-title-section">
         <div class="header-title" id="profileName"> Your Name </div>
         <div class="header-sub-title" id="profileSubTitle"> Software Engineer </div>
@@ -25,63 +23,81 @@
 
     <section class="info-section">
       <div class="info-left">
-        <!-- <div class="cat-header">
-          <span class="cat-indicator"> <i class="fa fa-chevron-right" aria-hidden="true"></i> </span>
-          <span class="cat-title">About Me</span>
-        </div>
-        <div class="cat-def-body" id="aboutIntro">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ipsa ratione quisquam quae dolorem,
-          voluptatum dolores dicta est assumenda aperiam fugit alias, cupiditate nihil. Dolorum, sit ut. Eaque, harum
-          ratione.
-        </div> -->
         <div class="cat-header">
-          <span class="cat-indicator"> <i class="fa fa-chevron-right" aria-hidden="true"></i> </span>
+          <span class="cat-indicator">
+            <i class="fas fa-id-card" aria-hidden="true"></i>
+          </span>
           <span class="cat-title">Contact</span>
         </div>
         <div class="contact-section">
           <div class="contact-item">
-            <span class="contact-logo"> <i class="fas fa-envelope"></i> </span>
+            <span class="contact-logo"> <i class="fas fa-at" aria-hidden="true"></i>
+            </span>
             <a class="contact-info" id="contactEmail" target="_blank" href=""> abc@xyz.com </a>
           </div>
           <div class="contact-item">
-            <span class="contact-logo"> <i class="fas fa-phone"></i> </span>
+            <span class="contact-logo"> <i class="fas fa-phone" aria-hidden="true"></i> </span>
             <span class="contact-info" id="contactPhone"> +91-xxxxxxxxx </span>
           </div>
-          <!-- <div class="contact-item">
-            <span class="contact-logo"> <i class="fas fa-address-card"></i> </span>
-            <span class="contact-info" id="contactAddress"> Earth, Solar System, Milky Way </span>
-          </div> -->
         </div>
 
         <div class="cat-header">
-          <span class="cat-indicator"> <i class="fa fa-chevron-right" aria-hidden="true"></i> </span>
+          <span class="cat-indicator"> <i class="fas fa-id-badge" aria-hidden="true"></i> </span>
           <span class="cat-title">Links</span>
         </div>
         <div class="cat-list-body">
           <ul id="linksList"></ul>
         </div>
 
+        <!-- <div class="cat-header">
+          <span class="cat-indicator">
+            <i class="fas fa-code" aria-hidden="true"></i>
+          </span>
+          <span class="cat-title">Skills</span>
+        </div>
+        <div class="cat-list-body">
+          <ul id="skillList"></ul>
+        </div> -->
+      </div>
+
+      <div class="info-right">
         <div class="cat-header">
           <span class="cat-indicator">
-            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <i class="fas fa-code" aria-hidden="true"></i>
           </span>
           <span class="cat-title">Skills</span>
         </div>
         <div class="cat-list-body">
           <ul id="skillList"></ul>
         </div>
-      </div>
 
-      <div class="info-right">
-        <div class="cat-header">
-          <span class="cat-indicator">
-            <i class="fa fa-chevron-right" aria-hidden="true"></i>
-          </span>
-          <span class="cat-title">Work Experience</span>
-        </div>
-        <div class="cat-list-body">
-          <ul id="experienceList"></ul>
-        </div>
+      </div>
+    </section>
+
+    <!-- Work experience section -->
+    <section class="info-row">
+      <div class="cat-header">
+        <span class="cat-indicator">
+          <i class="fas fa-briefcase" aria-hidden="true"></i>
+        </span>
+        <span class="cat-title">Work Experience</span>
+      </div>
+      <div class="cat-list-body">
+        <ul id="experienceList"></ul>
+      </div>
+    </section>
+
+
+    <!-- Projects Listing section -->
+    <section class="info-row">
+      <div class="cat-header">
+        <span class="cat-indicator">
+          <i class="fas fa-code-branch" aria-hidden="true"></i>
+        </span>
+        <span class="cat-title"> Projects</span>
+      </div>
+      <div class="cat-list-body">
+        <ul id="projectList"></ul>
       </div>
     </section>
 
@@ -89,38 +105,12 @@
     <section class="info-row">
       <div class="cat-header">
         <span class="cat-indicator">
-          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <i class="fas fa-graduation-cap" aria-hidden="true"></i>
         </span>
         <span class="cat-title">Education</span>
       </div>
       <div class="cat-list-body">
         <ul id="educationList"></ul>
-      </div>
-    </section>
-
-    <!-- Skills listing section -->
-    <section class="info-row">
-      <!-- <div class="cat-header">
-        <span class="cat-indicator">
-          <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        </span>
-        <span class="cat-title">Skills</span>
-      </div>
-      <div class="cat-list-body">
-        <ul id="skillList"></ul>
-      </div> -->
-    </section>
-
-    <!-- Projects Listing section -->
-    <section class="info-row">
-      <div class="cat-header">
-        <span class="cat-indicator">
-          <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        </span>
-        <span class="cat-title"> Projects</span>
-      </div>
-      <div class="cat-list-body">
-        <ul id="projectList"></ul>
       </div>
     </section>
 

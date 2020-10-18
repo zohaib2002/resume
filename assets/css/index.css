@@ -1,7 +1,8 @@
 body,
 html {
   margin: 0 auto;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Source Sans Pro',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 100%;
   color: #222;
 }
@@ -30,7 +31,6 @@ strong {
 
 .link-title {
   letter-spacing: 1px;
-  font-weight: 600;
   color: #444;
 }
 
@@ -45,15 +45,10 @@ strong {
 .profile-logo {
   width: 100px;
   height: 100px;
-  background-image: url('/assets/images/avatar.jpg');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
   border-radius: 50%;
 }
 
 .header-title {
-  font-family: 'Source Sans Pro';
   font-size: 2.4rem;
   font-weight: 100;
   letter-spacing: 0.3rem;
@@ -123,7 +118,6 @@ strong {
 }
 
 .cat-title {
-  font-family: 'Source Sans Pro';
   text-transform: uppercase;
   letter-spacing: 3px;
   vertical-align: text-bottom;
@@ -137,6 +131,9 @@ strong {
 }
 
 /* Lists */
+.cat-list-body {
+  padding-bottom: 1rem;
+}
 .cat-list-body ul {
   padding-left: 18px;
   margin: 0;
@@ -191,7 +188,6 @@ strong {
 .cat-list-body,
 .cat-contact-body,
 .cat-skill-body {
-  font-family: 'Source Sans Pro';
 }
 
 /* Project */
@@ -251,8 +247,9 @@ strong {
   background-color: #3173bb;
   color: #fff;
   border-radius: 3rem;
-  font-family: 'Source Sans Pro';
-  font-weight: 600;
+
+  /* font-weight: 600; */
+  font-size: 0.9rem;
 }
 
 .skill-progress-track {
@@ -308,7 +305,7 @@ strong {
   font-style: italic;
 }
 
-.expDet>li {
+.expDet > li {
   padding: 0.3rem 0 !important;
   padding-left: 0.3rem !important;
 }
@@ -401,7 +398,7 @@ strong {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .project-link a {
