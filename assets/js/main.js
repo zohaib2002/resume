@@ -1,5 +1,4 @@
 /* Define all the functions */
-
 const setTitle = data => {
   // Set page title
   document.title = `${data.title} | ${data.name}`;
@@ -30,6 +29,7 @@ const setLinks = links => {
     const a = document.createElement('a');
     a.href = link.src;
     a.target = '_blank';
+    a.rel = 'noopener noreferrer';
     a.innerHTML = link.src;
     linkSrc.appendChild(a);
     li.appendChild(linkSrc);
@@ -104,6 +104,7 @@ const setProjects = projects => {
       const a = document.createElement('a');
       a.href = project.link;
       a.target = '_blank';
+      a.rel = 'noopener noreferrer';
       a.innerHTML = `${project.link}`;
 
       projectLink.appendChild(a);
@@ -188,7 +189,7 @@ const setExperience = experiences => {
 
     const expOrg = document.createElement('div');
     expOrg.className = 'exp-org';
-    expOrg.innerText = exper.organization;
+    expOrg.innerHTML = exper.organization;
     expItem.appendChild(expOrg);
 
     const expSub = document.createElement('div');
@@ -244,7 +245,7 @@ const setEvents = events => {
 
       const achTitle = document.createElement('div');
       achTitle.className = 'ach-title';
-      achTitle.innerText = evt.desc;
+      achTitle.innerHTML = evt.desc;
       achItem.appendChild(achTitle);
 
       const achDuration = document.createElement('div');
@@ -258,6 +259,30 @@ const setEvents = events => {
 
     eventBody.appendChild(ul);
     footer.appendChild(eventBody);
+  });
+};
+
+const setCertification = certifications => {
+  const certList = document.getElementById('certList');
+
+  certifications.forEach(evt => {
+    const li = document.createElement('li');
+
+    const achItem = document.createElement('div');
+    achItem.className = 'ach-item';
+
+    const achTitle = document.createElement('div');
+    achTitle.className = 'ach-title';
+    achTitle.innerHTML = evt.desc;
+    achItem.appendChild(achTitle);
+
+    const achDuration = document.createElement('div');
+    achDuration.className = 'ach-duration';
+    achDuration.innerHTML = evt.date;
+    achItem.appendChild(achDuration);
+
+    li.appendChild(achItem);
+    certList.appendChild(li);
   });
 };
 
@@ -282,26 +307,7 @@ const setCatagoryHeader = title => {
   return catHeader;
 };
 
-const correctHTML = () => {
-  const desc = document.getElementsByClassName('ach-title');
-  for (let i = 0; i < desc.length; i++) {
-    desc[i].innerHTML = desc[i].innerText;
-  }
-
-  window.addEventListener(
-    'load',
-    () => {
-      // Extra padding for last skill item
-      /*const skillItems = document.querySelectorAll(".footer > .cat-skill-item");
-        if (skillItems) {
-            skillItems[skillItems.length - 1].classList.add("pad-bottom-extra");
-        }*/
-    },
-    false
-  );
-};
-
-//  Entry Function
+//  Entry Function, IIFE
 (() => {
   // Call functions to load profile
   setTitle(profileData);
@@ -310,6 +316,6 @@ const correctHTML = () => {
   setProjects(profileData.projects);
   setSkills(profileData.skills);
   setEducation(profileData.education);
+  setCertification(profileData.certifications);
   setEvents(profileData.events);
-  correctHTML();
 })();

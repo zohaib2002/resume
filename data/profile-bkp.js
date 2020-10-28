@@ -25,7 +25,7 @@ const profileData = {
     {
       alma: 'FET, GKV, Haridwar',
       duration: '2014 - 2018',
-      std: 'B.Tech. (Computer Science & Engineering)',
+      std: 'Bachelor of Technology (Computer Science & Engineering)',
       score: '71.00%'
     },
     {
@@ -85,13 +85,13 @@ const profileData = {
       It also has features to create groups(teams) and add/remove members.
       Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS), 
       <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`
+    },
+    {
+      title: `JNANAGNI'17`,
+      duration: 'Jan - Mar 2017',
+      link: 'https://github.com/methusael13/jnanagni17',
+      desc: `Official website for Jnanagni 2017 - FET, GKV's Annual Techfest. Developed in Laravel5 `
     }
-    // {
-    //   title: `JNANAGNI'17`,
-    //   duration: 'Jan - Mar 2017',
-    //   link: 'https://github.com/methusael13/jnanagni17',
-    //   desc: `Official website for Jnanagni 2017 - FET, GKV's Annual Techfest. Developed in Laravel5 `
-    // }
   ],
   experiences: [
     {
@@ -120,8 +120,8 @@ const profileData = {
     {
       organization: 'Venuemonk',
       title: 'Full-Stack Developer Intern',
-      desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' rel='noreferrer' href='https://www.venuemonk.com/'> 
-      <strong> Venuemonk </strong> </a> (<a target='_blank' rel='noreferrer' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
+      desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' href='https://www.venuemonk.com/'> 
+      <strong> Venuemonk </strong> </a> (<a target='_blank' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
       date: 'Jan 2018 - Apr 2018',
       details: [
         `Designed and developed a <strong>Venue Onboarding platform</strong> to streamline and automate 
@@ -136,8 +136,8 @@ const profileData = {
     {
       organization: 'Hasura',
       title: 'Product Development Intern (Remote)',
-      desc: `<strong>Product development intern</strong> at <a target='_blank' rel='noreferrer' href='https://hasura.io/'> 
-      <strong> Hasura </strong> </a> (<a target='_blank' rel='noreferrer' href='https://goo.gl/8V3jBy'> https://goo.gl/8V3jBy</a>)`,
+      desc: `<strong>Product development intern</strong> at <a target='_blank' href='https://hasura.io/'> 
+      <strong> Hasura </strong> </a> (<a target='_blank' href='https://goo.gl/8V3jBy'> https://goo.gl/8V3jBy</a>)`,
       date: 'Jun 2017 - Aug 2017',
       details: [
         `Created a web-app using <strong>Node.js-Express</strong> with <strong>EJS</strong> server-side-templating on 
@@ -150,13 +150,45 @@ const profileData = {
   ],
   certifications: [
     {
-      desc: `<strong>Mobile Web Specialist Nanodegree</strong> by <strong>Udacity</strong>. (<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
+      desc: `<strong>Mobile Web Specialist Nanodegree</strong> by <strong>Udacity</strong>. (<a target='_blank' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
       date: 'May - Nov 2018'
     },
     {
-      desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras) and Hasura</em>. Ranked at <strong> top 10 percentile </strong> among more than 2500 candidates. (<a target='_blank' rel='noreferrer' href='https://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'> https://goo.gl/X3HEdR</a>)`,
+      desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras) and Hasura</em>. Ranked at <strong> top 10 percentile </strong> among more than 2500 candidates. (<a target='_blank' href='http://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'> https://goo.gl/X3HEdR</a>)`,
       date: 'Jan - Mar 2017'
     }
   ],
-  events: []
+  events: [
+    // {
+    //   title: 'Workshops',
+    //   body: [
+    //     {
+    //       desc: `<strong>Emerging Trends in Computer Science</strong>, summer training program with <strong>MNNIT </strong> Allahabad (<a target='_blank' href='https://drive.google.com/file/d/0B6uOcoHYLgJ7WEVmdlJDcWVZcEE/view?usp=sharing'>Certificate link</a>)`,
+    //       date: 'Jun - July 2016'
+    //     },
+    //     {
+    //       desc: `<strong>Bluemix Enablment</strong> with <strong> IBM </strong> at FET, GKV`,
+    //       date: 'Mar 2015'
+    //     },
+    //     {
+    //       desc: `<strong>Web Essentials</strong> with KnowWorkshops and CSI Haridwar chapter at FET, GKV`,
+    //       date: 'Feb 2015'
+    //     }
+    //   ]
+    // }
+    // {
+    //   title: 'Extracurricular Activities',
+    //   body: [
+    //     {
+    //       desc: `Event Organizer in <strong>Jnanagni'17</strong> (Annual Techno-Cultural fest of FET, GKV)`,
+    //       date: 'Mar 2017'
+    //     },
+    //     {
+    //       desc:
+    //         'Conducted a workshop for 1<sup>st</sup> and 2<sup>nd</sup> year students on <strong>Linux Essentials</strong>',
+    //       date: 'Oct 2016'
+    //     }
+    //   ]
+    // }
+  ]
 };

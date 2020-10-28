@@ -4,8 +4,8 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume | John Doe</title>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/index.css">
@@ -14,7 +14,8 @@
 <body>
   <div class="container">
     <section class="header">
-      <img class="profile-logo" id="profileLogo" alt="profile image" src="assets/images/avatar.jpg" />
+      <img class="profile-logo" id="profileLogo" alt="profile image" src="assets/images/avatar.jpg" height="100px"
+        width="100px" />
       <div class="header-title-section">
         <div class="header-title" id="profileName"> Your Name </div>
         <div class="header-sub-title" id="profileSubTitle"> Software Engineer </div>
@@ -32,8 +33,10 @@
         <div class="contact-section">
           <div class="contact-item">
             <span class="contact-logo"> <i class="fas fa-at" aria-hidden="true"></i>
+
             </span>
-            <a class="contact-info" id="contactEmail" target="_blank" href=""> abc@xyz.com </a>
+            <a class="contact-info" id="contactEmail" target="_blank" href="" rel="noopener noreferrer"> abc@xyz.com
+            </a>
           </div>
           <div class="contact-item">
             <span class="contact-logo"> <i class="fas fa-phone" aria-hidden="true"></i> </span>
@@ -101,6 +104,19 @@
       </div>
       <div class="cat-list-body">
         <ul id="educationList"></ul>
+      </div>
+    </section>
+
+    <!-- Certifications listing section -->
+    <section class="info-row">
+      <div class="cat-header">
+        <span class="cat-indicator">
+          <i class="fas fa-certificate" aria-hidden="true"></i>
+        </span>
+        <span class="cat-title">Certifications</span>
+      </div>
+      <div class="cat-list-body">
+        <ul id="certList"></ul>
       </div>
     </section>
 
