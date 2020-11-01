@@ -99,8 +99,10 @@ const profileData = {
       title: `Software Development Engineer 1`,
       date: 'Apr 2020 - Present',
       details: [
-        `Workinng on development of internal tools to provide help in operations. Tech stack includes <strong>ReactJS</strong> with <strong>SCSS</strong> and
-        <strong>Redux</strong> for frontend and <strong>NodeJS-Express</strong> for backend.`
+        `Working on the development of internal tools to provide ease in the work of the operation team with tech stack of 
+        <strong>ReactJS</strong> with <strong>SCSS</strong> and <strong>Redux</strong> for frontend and <strong>NodeJS-Express</strong> 
+        with protobuf for the backend.`,
+        `Created a customized Content Management System for MPL's website, to update content and images on the fly for different pages.`
       ]
     },
     {
@@ -126,11 +128,7 @@ const profileData = {
       details: [
         `Designed and developed a <strong>Venue Onboarding platform</strong> to streamline and automate 
         the onboarding process of partner venues using <strong>React.js-Redux</strong> frontend and 
-        <strong>Node.js-Express, MongoDB</strong> backend.`,
-
-        `Modified the existing CMS by re-structuring server-side template 
-        (Dust.js) code into client-side using <strong>React.js</strong>, <strong>Redux</strong> and 
-        <strong>React-Bootstrap</strong>.`
+        <strong>Node.js-Express, MongoDB</strong> backend.`
       ]
     },
     {
