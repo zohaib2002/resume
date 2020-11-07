@@ -1,7 +1,7 @@
 const profileData = {
   title: 'Resume',
   name: 'Vipin Yadav',
-  sub_title: 'Frontend Developer',
+  sub_title: 'Full-Stack Developer',
   logoURL: 'assets/images/dp.jpg',
   about: {
     intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
@@ -54,9 +54,8 @@ const profileData = {
         'NodeJS',
         'Express',
         'Angular',
-        'Jasmine',
-        'Jest',
-        'Bootstrap'
+        'Bootstrap',
+        'antd'
       ]
     },
     {
