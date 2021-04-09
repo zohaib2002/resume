@@ -2,7 +2,6 @@
 const setTitle = data => {
   // Set page title
   document.title = `${data.title} | ${data.name}`;
-  document.querySelector('#profileLogo').src = data.logoURL;
   document.querySelector('#profileName').innerHTML = data.name;
   document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
   // document.querySelector('#aboutIntro').innerHTML = data.about.intro;

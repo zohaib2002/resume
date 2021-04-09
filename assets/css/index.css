@@ -35,11 +35,8 @@ strong {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* padding: 1rem; */
-  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .profile-logo {
@@ -50,17 +47,15 @@ strong {
 
 .header-title {
   font-size: 2.4rem;
-  font-weight: 100;
-  letter-spacing: 0.3rem;
+  font-weight: 200;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
-  text-align: right;
 }
 
 .header-sub-title {
   font-weight: 400;
   color: #757575;
-  letter-spacing: 1px;
-  text-align: right;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -308,10 +303,6 @@ strong {
 @media screen and (max-width: 500px) {
   .profile-logo {
     margin: 0 auto;
-  }
-
-  .header-title-section {
-    width: 100%;
   }
 
   .header-title {
