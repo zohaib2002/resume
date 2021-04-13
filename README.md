@@ -24,6 +24,8 @@ _( Make sure you have a GitHub account )_
 If you are a web-developer like me and want to run this on your local system then follow the instructions mentioned below.  
 The project need to be hosted using any Web-Server like `apache`, `tomcat`, `http-server` or `SimpleHTTPServer` etc. I use `http-server` as it is very simple to use. Install `http-server` from [here](https://www.npmjs.com/package/http-server) (NodeJS and npm need to installed first to run it).
 
+Additionally if you are using VSCode, the same can be done with [Live Server extention](https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/).
+
 1. Clone the repo using git or download zip of project on your local system.
 To clone
 ```bash
