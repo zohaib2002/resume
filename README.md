@@ -14,10 +14,11 @@ View it in action https://imvpn22.github.io/resume/
 _( Make sure you have a GitHub account )_
 1. Fork this repo by clicking the **Fork** button on top-right corner.
 2. Go to the forked repo on your profile (It opens by default).    
-3. Edit `data/profile.js` file using GitHub online editor and fill your own data.  
-4. Open the settings of repo and enable [github pages](https://pages.github.com/) choosing source to `master` branch.  
-5. Visit `https://<your GitHub username>.github.io/resume` in your browser.  
-6. Additionaly you can print/save the page as PDF.  
+3. Edit `data/profile.js` file using GitHub online editor and fill your own data.
+4. Save above by doing `commit changes`.
+5. Open the settings of repo and enable [github pages](https://pages.github.com/) choosing source to `master` branch.  
+6. Visit `https://<your GitHub username>.github.io/resume` in your browser.  
+7. Additionaly you can print/save the page as PDF.  
 
 #### Using local development
 If you are a web-developer like me and want to run this on your local system then follow the instructions mentioned below.  
