@@ -1,155 +1,109 @@
 const profileData = {
   title: 'Resume',
-  name: 'Vipin Yadav',
-  sub_title: 'Frontend Developer',
+  name: 'Zohaib Hamdule',
+  sub_title: 'B.E. Computer Science Engineering (2024)',
   logoURL: 'assets/images/dp.jpg',
   about: {
     intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
-     and it's applications. Experienced in designing and implementing sophisticated UI/UX with
-      Progressive Web Application standards and application life-cycle managements.`,
+     and it's applications. I am always eager to learn new Technologies and Frameworks to use in
+      my projects. I have a few published apps on the playstore made using Flutter.`,
     contact: {
-      email: 'imvpn22@gmail.com',
-      phone: '+91-9919716378',
-      address: 'Bangalore, IN'
+      email: 'zohaib2002@gmail.com',
+      phone: '+91-9892161214',
+      address: 'Ratnagiri, Maharashtra, IN'
     }
   },
   links: [
-    { title: 'Codepen', src: 'https://codepen.io/imvpn22' },
-    { title: 'Github', src: 'https://github.com/imvpn22' },
-    { title: 'LinkedIn', src: 'https://www.linkedin.com/in/imvpn22' }
-    // { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
-    // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
+    { title: 'Github', src: 'https://github.com/zohaib2002' },
+    { title: 'LinkedIn', src: 'https://www.linkedin.com/in/zohaibhamdule' },
+    { title: 'Twitter', src: 'https://twitter.com/zohaib_hamdule' },
   ],
   education: [
     {
-      alma: 'FET, GKV, Haridwar',
-      duration: '2014 - 2018',
-      std: 'B.Tech. (Computer Science & Engineering)',
-      score: '71.00%'
+      alma: 'FAMT, Ratnagiri',
+      duration: '2020 - Present',
+      std: 'B.E. (Computer Science & Engineering)',
+      score: 'SEM I: 9.78, SEM II: 8.93'
     },
     {
-      alma: 'Jwala Devi SVMIC, Prayagraj',
-      duration: '2011 - 2013',
-      std: 'Class XI - XII (PCM)',
-      score: '89.80%'
+      alma: 'India International School, Kuwait',
+      duration: '2018 - 2020',
+      std: 'Class XII (PCM)',
+      score: '93.4%'
     },
     {
-      alma: 'Jwala Devi SVMIC, Prayagraj',
-      duration: '2011 - 2013',
-      std: 'Class IX - X (PCM)',
-      score: '73.33%'
+      alma: 'India International School, Kuwait',
+      duration: '2017 - 2018',
+      std: 'Class X',
+      score: '86.6%'
     }
   ],
   skills: [
     {
       category: 'Programming Languages',
-      topics: ['TypeScript', 'JavaScript', 'C', 'C++']
+      topics: ['JavaScript', 'C', 'C++', 'C#', 'Pyhton', 'Java', 'Dart']
     },
     {
       category: 'Frameworks / Libraries',
       topics: [
         'ReactJS',
-        'Redux',
         'NodeJS',
         'Express',
         'Angular',
         'Bootstrap',
-        'antd'
+        'Flutter'
       ]
     },
     {
       category: 'Databases',
-      topics: ['MongoDB', 'PostgreSQL']
+      topics: ['MongoDB', 'SQLite']
     }
   ],
   projects: [
     {
-      title: 'Restaurant Review',
-      duration: 'June - Nov 2018',
-      link: 'https://github.com/imvpn22/restaurant-review-pwa',
-      desc: `A web-app to list, view and add reviews of restaurents.
-      The app includes filtering based on location, cuisine and rating.
-      This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
-      Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
-      with Progressive Web-Application standards including full-responsiveness,
-      offline support and improved accessibility.`
+      title: 'What Should I Cook Today?',
+      duration: 'June - August 2021',
+      link: 'https://play.google.com/store/apps/details?id=com.xample.whatsicook',
+      desc: `An android app to get cooking recommendations.
+      Add dishes you can cook to your collection and get cooking recommendations based on ingredients available to you!
+      Moreover, get new recipe ideas from various cuisines from an inbuilt Cookbook powered by Spoonacular API.
+      Developed using <strong>Flutter</strong>, <strong>SQLite</strong> and <strong>Spoonacular</strong>
+      with Material App design, offline support and ability to import/export data.`
     },
     {
-      title: 'WhiteBoard',
-      duration: 'Jun - Aug 2017',
-      link: 'https://github.com/imvpn22/whiteboard',
-      desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>.
-      The app includes a real-time messaging and sketching platform for collaboration with Peers.
-      It also has features to create groups(teams) and add/remove members.
-      Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS),
-      <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`
+      title: 'LongLongDouble',
+      duration: 'Dec 2020',
+      link: 'https://github.com/zohaib2002/longlongdouble',
+      desc: `My personal blog to post CS realted stuff.
+      This blog is made using the Flask python framework. The application loads all the articles stored 
+      in the database and previews them on the index (home) page. Clicking on 'Read More' on an any post preview 
+      opens the article for reading. The project uses <strong>Disqus</strong> to host blog comments. The comment section is unique for
+      each indivisual post. It also uses <strong>Bootstrap</strong> CSS libraries for styling.
+      This project was a part of Harvard edX course: CS50: Introduction to Computer Science (2020)`
     }
   ],
   experiences: [
     {
-      organization: 'Mobile Premier League',
-      title: `Software Development Engineer 1`,
-      date: 'Apr 2020 - Present',
+      organization: 'GEOGO Techsolutions Pvt. Ltd',
+      title: `Full Stack Development Intern`,
+      date: 'Nov 2021 - Present',
       details: [
-        `Working on the development of internal tools to provide ease in the work of the operation team with tech stack of
-        <strong>ReactJS</strong> with <strong>SCSS</strong> and <strong>Redux</strong> for frontend and <strong>NodeJS-Express</strong>
-        with protobuf for the backend.`,
-        `Created a customized Content Management System for MPL's website, to update content and images on the fly for different pages.`
-      ]
-    },
-    {
-      organization: 'Wipro',
-      title: `Project Engineer`,
-      desc: `Project Engineer`,
-      date: 'Aug 2018 - Apr 2020',
-      details: [
-        `Contributed in the development of a <strong>collaborative online
-        blueprint editor</strong> by translating the design mockups into reusable UI components
-        with industry-standard UX patterns using <strong>Angular</strong> with <strong>SCSS</strong>,
-        <strong>NgRx</strong> and <strong>Angular-Material</strong> and adding actions to those by
-        creating services to integrate backend REST-APIs.`,
-        `Resolved UI/UX issues by refactoring React components and re-structuring CSS/SCSS of an internal project with codebase of ReactJS-Redux.`
-      ]
-    },
-    {
-      organization: 'Venuemonk',
-      title: 'Full-Stack Developer Intern',
-      desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' rel='noreferrer' href='https://www.venuemonk.com/'>
-      <strong> Venuemonk </strong> </a> (<a target='_blank' rel='noreferrer' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
-      date: 'Jan 2018 - Apr 2018',
-      details: [
-        `Designed and developed a <strong>Venue Onboarding platform</strong> to streamline and automate
-        the onboarding process of partner venues using <strong>React.js-Redux</strong> frontend and
-        <strong>Node.js-Express, MongoDB</strong> backend.`
-      ]
-    },
-    {
-      organization: 'Hasura',
-      title: 'Product Development Intern (Remote)',
-      desc: `<strong>Product development intern</strong> at <a target='_blank' rel='noreferrer' href='https://hasura.io/'>
-      <strong> Hasura </strong> </a> (<a target='_blank' rel='noreferrer' href='https://goo.gl/8V3jBy'> https://goo.gl/8V3jBy</a>)`,
-      date: 'Jun 2017 - Aug 2017',
-      details: [
-        `Created a web-app using <strong>Node.js-Express</strong> with <strong>EJS</strong> server-side-templating on
-        <strong>Hasura's BaaS platform</strong> with features of group-chat and a
-        sketch board for real-time collaboration with peers. The work was more focused
-        towards <strong>using auth and data APIs</strong> offered by the platform, deploying the app,
-        testing and reporting the bugs in it.`
+        `Learning MERN Stack for Full Stack Web Development
+        <strong>HTML</strong>, <strong>CSS</strong> and <strong>React</strong> for frontend and <strong>NodeJS-Express</strong>
+        with <strong>MongoDB</strong> for the backend. And creating a Capstone Final Project..`
       ]
     }
   ],
   certifications: [
     {
-      desc: `<strong>Mobile Web Specialist Nanodegree</strong> by <strong>Udacity</strong>.
-      (<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      date: 'May - Nov 2018'
+      desc: `<strong>CS50: Introduction to Computer Science</strong> by <strong>Harvard edX</strong>.
+      (<a target='_blank' rel='noreferrer' href='https://cs50.harvard.edu/certificates/1012d601-e772-4413-8b54-a344218ddbae'>Certificate</a>)`,
+      date: 'Oct - Dec 2020'
     },
     {
-      desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras)
-      and Hasura</em>. Ranked at <strong> top 10 percentile </strong> among more than 2500 candidates.
-       (<a target='_blank' rel='noreferrer' href='https://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>
-       https://goo.gl/X3HEdR</a>)`,
-      date: 'Jan - Mar 2017'
+      desc: `<strong>Microsoft Excel: Basic and Advanced</strong>, by <strong>GoSkills</strong>
+      With an Exam Score or 92%. (Verification no: 78313302)`,
+      date: 'Apr 2020'
     }
   ],
   events: []
