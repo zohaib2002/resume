@@ -102,7 +102,7 @@ const profileData = {
     },
     {
       desc: `<strong>Microsoft Excel: Basic and Advanced</strong>, by <strong>GoSkills</strong>
-      With an Exam Score or 92%. (Verification no: 78313302)`,
+      with an Exam Score or 92%. (Verification no: 78313302)`,
       date: 'Apr 2020'
     }
   ],
