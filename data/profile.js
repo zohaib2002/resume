@@ -23,7 +23,7 @@ const profileData = {
       alma: 'FAMT, Ratnagiri',
       duration: '2020 - Present',
       std: 'B.E. (Computer Science & Engineering)',
-      score: 'SEM I: 9.78, SEM II: 8.93'
+      score: '9.78, 8.93'
     },
     {
       alma: 'India International School, Kuwait',
