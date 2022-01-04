@@ -66,7 +66,7 @@ const profileData = {
       link: 'https://play.google.com/store/apps/details?id=com.xample.whatsicook',
       desc: `An android app to get cooking recommendations.
       Add dishes you can cook to your collection and get cooking recommendations based on ingredients available to you!
-      Moreover, get new recipe ideas from various cuisines from an inbuilt Cookbook powered by Spoonacular API.
+      Moreover, find new recipe ideas from various cuisines from an inbuilt Cookbook powered by Spoonacular API.
       Developed using <strong>Flutter</strong>, <strong>SQLite</strong> and <strong>Spoonacular</strong>
       with Material App design, offline support and ability to import/export data.`
     },
@@ -88,9 +88,9 @@ const profileData = {
       title: `Full Stack Development Intern`,
       date: 'Nov 2021 - Present',
       details: [
-        `Learning MERN Stack for Full Stack Web Development
+        `Learnt MERN Stack for Full Stack Web Development
         <strong>HTML</strong>, <strong>CSS</strong> and <strong>React</strong> for frontend and <strong>NodeJS-Express</strong>
-        with <strong>MongoDB</strong> for the backend. And creating a Capstone Final Project..`
+        with <strong>MongoDB</strong> for the backend. And created a capstone final project: a clone of Cowin India website`
       ]
     }
   ],
