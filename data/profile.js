@@ -15,7 +15,7 @@ const profileData = {
   },
   links: [
     { title: 'Github', src: 'https://github.com/zohaib2002' },
-    { title: 'LinkedIn', src: 'https://www.linkedin.com/in/zohaibhamdule' },
+    { title: 'LinkedIn', src: 'https://linkedin.com/in/zohaibhamdule' },
     { title: 'Twitter', src: 'https://twitter.com/zohaib_hamdule' },
   ],
   education: [
