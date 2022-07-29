@@ -20,19 +20,19 @@ const profileData = {
   ],
   education: [
     {
-      alma: 'FAMT, Ratnagiri',
+      alma: 'Finolex Academy of Management Technology, Ratnagiri | University of Mumbai',
       duration: '2020 - Present',
       std: 'B.E Computer Science & Engineering (AIML)',
       score: '9.52 (AVG)'
     },
     {
-      alma: 'India International School, Kuwait',
+      alma: 'India International School, Kuwait | CBSE',
       duration: '2018 - 2020',
       std: 'Class XII (PCM)',
       score: '93.4%'
     },
     {
-      alma: 'India International School, Kuwait',
+      alma: 'India International School, Kuwait | CBSE',
       duration: '2017 - 2018',
       std: 'Class X',
       score: '86.6%'
