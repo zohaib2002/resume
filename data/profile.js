@@ -22,8 +22,8 @@ const profileData = {
     {
       alma: 'FAMT, Ratnagiri',
       duration: '2020 - Present',
-      std: 'B.E. (Computer Science & Engineering)',
-      score: '9.78, 8.93'
+      std: 'B.E Computer Science & Engineering (AIML)',
+      score: '9.52 (AVG)'
     },
     {
       alma: 'India International School, Kuwait',
@@ -86,7 +86,7 @@ const profileData = {
     {
       organization: 'GEOGO Techsolutions Pvt. Ltd',
       title: `Full Stack Development Intern`,
-      date: 'Nov 2021 - Present',
+      date: 'Nov 2021 - Jan 2021',
       details: [
         `Learnt MERN Stack for Full Stack Web Development
         <strong>HTML</strong>, <strong>CSS</strong> and <strong>React</strong> for frontend and <strong>NodeJS-Express</strong>
