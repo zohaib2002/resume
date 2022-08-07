@@ -20,10 +20,10 @@ const profileData = {
   ],
   education: [
     {
-      alma: 'Finolex Academy of Management and Technology, Ratnagiri | University of Mumbai',
-      duration: '2020 - Present',
+      alma: 'Finolex Academy of Management and Technology, Ratnagiri |<br>University of Mumbai',
+      duration: '2020 - 2024',
       std: 'B.E Computer Science & Engineering (AIML)',
-      score: '9.52 (AVG)'
+      score: '9.55 (AVG)'
     },
     {
       alma: 'India International School, Kuwait | CBSE',
