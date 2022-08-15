@@ -96,15 +96,21 @@ const profileData = {
   ],
   certifications: [
     {
-      desc: `<strong>CS50: Introduction to Computer Science</strong> by <strong>Harvard edX</strong>.
-      (<a target='_blank' rel='noreferrer' href='https://cs50.harvard.edu/certificates/1012d601-e772-4413-8b54-a344218ddbae'>Certificate</a>)`,
-      date: 'Oct - Dec 2020'
+      desc: `<strong>Microsoft Certified: Azure AI Fundamentals</strong> by <strong>Microsoft</strong>
+      with a Score of 905.
+      (<a target='_blank' rel='noreferrer' href='https://www.credly.com/badges/d4fc717a-eaa3-42b1-8582-db7824ead8d5/linked_in_profile'>Badge</a>)`,
+      date: 'Aug 2022'
     },
     {
       desc: `<strong>Microsoft Excel: Basic and Advanced</strong>, by <strong>GoSkills</strong>
       with an Exam Score or 92%. (Verification no: 78313302)`,
       date: 'Apr 2020'
-    }
+    },
+    {
+      desc: `<strong>CS50: Introduction to Computer Science</strong> by <strong>Harvard edX</strong>.
+      (<a target='_blank' rel='noreferrer' href='https://cs50.harvard.edu/certificates/1012d601-e772-4413-8b54-a344218ddbae'>Certificate</a>)`,
+      date: 'Oct - Dec 2020'
+    },
   ],
   events: []
 };
