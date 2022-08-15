@@ -22,19 +22,19 @@ const profileData = {
     {
       alma: 'Finolex Academy of Management and Technology, Ratnagiri |<br>University of Mumbai',
       duration: '2020 - 2024',
-      std: 'B.E Computer Science & Engineering (AIML)',
+      std: 'B.E Computer Science & Engineering (AIML) ',
       score: '9.55 (AVG)'
     },
     {
       alma: 'India International School, Kuwait | CBSE',
       duration: '2018 - 2020',
-      std: 'Class XII (PCM)',
+      std: 'Class XII (PCM) ',
       score: '93.4%'
     },
     {
       alma: 'India International School, Kuwait | CBSE',
       duration: '2017 - 2018',
-      std: 'Class X',
+      std: 'Class X ',
       score: '86.6%'
     }
   ],
